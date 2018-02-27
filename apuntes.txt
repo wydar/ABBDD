@@ -5,3 +5,73 @@ una vista no es mas que una sentencia SELECT sobre la tabla base.
 
 Con las vistas un administrador de una BBDD puede dar a cada usuario la capacidad de ver
 la informacion a la que tiene permisos
+
+
+Para cambiar el valor de los parametros podemos hacerlo con el comando
+ALTER SYSTEM SER var = valor
+ALTER SYSTEM RESET
+
+Podemos crear perfiles, los cuales tienen unas caracteristicas determinadas y cada vez que haya que crear
+un usuario no hay que poner las caracteristicas que tiene si no que se le asigna un perfil
+el perfil se crea con CREATE PROFILE nombre_perfil LIMIT (los parametros que sean)
+
+Un espacio de tablas es el lugar donde se guardan las tablas que creamos. Oracle se organiza de forma logica
+en espacios de tablas. Una tabla tiene que estar siempre en un espcio de tabla y cuando creamos un usario
+
+Para crear un usuario
+CREATE USER Nombre_user INDENTIFIEND BY Clave_user  (La clave es sensible a mayusculas y minusculas)
+TEMPORARY TABLESPACE tem_ts
+DEFAULT TABLESAPCE data_ts
+QUOTA 100M ON test_ts   (si no especifico ningun QUOTA el usuario puede llenar el espacio de tabla si quiere)
+QUOTA 500K ON data_ts
+PROFILE perfil_1
+
+moficiar un usario: ALTER USER
+borrar un usuraio: DROP USER Nombre_user CASCADE (CASCADE se usa para borrar todos los obejtos del usuario)
+
+Para nosotros usurarios == esquemas (En la realidad no son lo mismo pero son muy parecidos)
+
+Roles:
+Para crear un rol:
+CREATE ROLE Gestor INDENTIFIED BY 123; (con este para que un usario pueda cambiar de rol tiene que saber la contraseña 123)
+CREATE ROLE Usuario_normal; (con este el usuario puede cambiar de rol cuando quiera)
+Roles por defecto:
+- CONNECT : solo puede conectarse a la base de datos (No es muy util)
+-RESOURCE : nos permite que el usuario cree lo que quiera en su espacio de tabla
+
+Privilegios:
+Ploitica LP (Least Privileges) tener el menor numero de Privilegios para poder meter la pata lo minimo posible
+Privilegios de sistema: se asignan a un usario y estan relacionados con las cosas de la BBDD
+Privilegios de Obejto: hay que especificar el tipo de permiso y el obejto
+Para saber si el permiso es de objeto o de sistema la regla es si necesitamos indicar el nombre del objeto el permiso es de objeto
+GRANT <Lista de permisos|Rol> [ON <Objeto>] TO <Usuarios> [WITH {GRANT|ADMIN} OPTION]; --> la ultima parte la de WITH tener cuidado casi nunca la usaremos
+                                                                |
+                                                                L--> GRANT = perimso de objeto, ADMIN = permiso de sistema
+Cuando se crea un rol no tiene ningun privilegio, hay que darselos
+Algunas veces si se tiene permiso a traves de un rol no funciona, asi que habria que dar el permiso explicitamente. Normalmente no pasa
+
+¿Como puedo hacer para que un usuario solo pueda leer una columna de una tabla?
+Se hace dandole una vista que contenga solo la columna que queremos
+
+Vistas:
+es una "tabla virtual" que derivan de otras tablas, el usuario no distingue entre vistas o tablas. Los datos de una vista no se almacenan en ninguna parte de
+la base de datos, cada vez que se quiera ver una vista se hará una consulta a la BBDD, por lo tanto una vista siempre está actualizada
+CREATE [ON REPLACE] [[NO] FORCE] VIEW <NombreV> [ (<Lista_Atb>)] AS (Subconsulta) [WITH  READ ONLY];
+                                                      |                             |
+                                                      |                             L--> si no se pone esto la vista se puede actualizar con un insert el cual
+                                                      |                                  cambia la tabla base. Si la vista esta hecha con dos tablas e insertas
+                                                      |                                  crea las entradas con los datos y el resto de datos que no esten asignados
+                                                      |                                 se ponen a NULL y esto puede dar errores.
+                                                      L --> esto es por si quiero cambiar el nombre de los atributos, si no lo pongo el nombre de los
+                                                            atributos seran los de la Subconsulta
+para borrar vistas: DROP VIEW
+
+Sinonimos:
+es un alias de una tabla,vista,funcion... La utilidad de los Sinonimos es para esconder los datos que hay por detrás para que sepa lo minio posible
+CREATE [PUBLIC] SYNONYM <Nombre> FOR <Objeto>;
+
+Vista materializada:
+es una fotografia de una o varias tablas en un momento determinado. Se usa para tablas cuya frecuencia de actualizacion es baja una vez al dia o menos
+y si la base de datos esta replicada en otro pais o un sitio lejano haces la vista materializada las consultas diarias se hace en la vista y la sensacion
+de rapidez es mayor.
+CREATE MATERIALIZED VIEW <Nombre> <Clausulas> AS <Subconsulta>;
