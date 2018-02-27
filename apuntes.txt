@@ -1,0 +1,7 @@
+User: System  Pass: bd
+
+Vista: es una vision de los datos, los datos de una vista no guarda los datos ya que
+una vista no es mas que una sentencia SELECT sobre la tabla base.
+
+Con las vistas un administrador de una BBDD puede dar a cada usuario la capacidad de ver
+la informacion a la que tiene permisos
