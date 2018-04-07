@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="canal de" directorySegmentName="seg_0" id="042A1DE7-1431-5F1B-38DF-032651177C1B">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>40AF9579-2FB9-3598-3D52-62DBE0D7A751</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<sourcePk>1F92B60D-EBFD-307D-6A63-1560EABDA38A</sourcePk>
+<targetPk>1F92B60D-EBFD-307D-6A63-1560EABDA38A</targetPk>
+<identifying>false</identifying>
+<nameOnSource>tiene un</nameOnSource>
+<nameOnTarget>pertenece a un</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D0ADACE9-5075-A281-F250-F9C042CCD190</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>34CE7719-1DE7-233A-A2AC-29164B7D4B63</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

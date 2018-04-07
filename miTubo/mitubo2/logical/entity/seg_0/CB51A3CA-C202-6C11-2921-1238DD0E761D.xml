@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB51A3CA-C202-6C11-2921-1238DD0E761D" name="TARIFAS">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>1D9F3861-F171-72FF-D0C4-374CEA14ED14</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id2" id="E425BD2D-1C39-50FB-FFD6-AF9E7E02C843">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<generatorID>2F33DD98-6DA4-0981-C82C-988147D089FA</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>66BA197D-A2DA-7D2A-DA17-4BB0E3EB7B4D</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<referedAttribute>2DAF12AB-66C6-CD61-143E-A182FAE1BCE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="DCF8DF01-D04D-387D-4915-29AED4F0351B">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<generatorID>817BCB02-95F5-DF24-6479-2569314281D0</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>5D33B72C-4D41-7E3D-57CF-B1AAAA571D17</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<referedAttribute>20D36EB5-FE44-08C7-2A26-0FA26E4A9F8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tarifa" id="21F6DF7A-E874-D97E-8F9E-432BAA43D0A6">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>48DC6EC9-43BB-4CF2-9E19-F171A51ECAFD</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A009078D-C599-E50E-1FA5-C7DDAE31B9FE" name="TARIFAS PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>CA810031-F046-D5CC-9D7D-8CEDBBEEE889</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E425BD2D-1C39-50FB-FFD6-AF9E7E02C843</attributeRef>
+<attributeRef>DCF8DF01-D04D-387D-4915-29AED4F0351B</attributeRef>
+<attributeRef>21F6DF7A-E874-D97E-8F9E-432BAA43D0A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D8654D2-2269-8E86-A5C2-517B92CB3B1D" name="Relation_30">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CANAL_id" id="A4082B2E-F726-DB98-32F4-B34CA72B6C52">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA26EB57-EDFA-B736-BEBE-437A13E7EB7B" referredColumn="0365E4C6-B489-9F56-1D92-B8E84E85832D"/>
+</associations>
+</Column>
+<Column name="USUARIO_id" id="4CFF724C-D8C4-5C55-F507-331E2A092CD2">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A9E44D7-1FDC-24F5-DCCA-FA745B590AB7" referredColumn="2C1F6D7E-691C-BDE6-5F93-448FA2F5490A"/>
+</associations>
+</Column>
+<Column name="ambito" id="3A8636AA-6615-89CE-1B44-8255C626B14C">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<generatorID>E717B70B-B67B-53D9-0CF7-B1B304C22EB3</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9ACE797-4337-3780-59F5-079E48094B18" name="Relation_30_PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4082B2E-F726-DB98-32F4-B34CA72B6C52"/>
+<colUsage columnID="4CFF724C-D8C4-5C55-F507-331E2A092CD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2154083D-23F0-A8B6-F847-4EDD253C46D2" name="FK_ASS_69">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<generatorID>A1A6BB07-2463-4612-05FD-09A27D4C8F9B</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4082B2E-F726-DB98-32F4-B34CA72B6C52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D69C69FD-CBA0-D1EB-D2EF-E97677923E1F" name="FK_ASS_70">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<generatorID>A1A6BB07-2463-4612-05FD-09A27D4C8F9B</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CFF724C-D8C4-5C55-F507-331E2A092CD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D856C437-2D73-2360-CC82-B0B5B8128420" containerWithKeyObject="C249AC17-1892-40F2-B501-49C515F3E1E7" localFKIndex="DBEA16AC-7ED4-C6C0-CE7F-648362BC8A91" name="TARIFAS_ANUNCIOS_FK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:24 UTC</createdTime>
+<generatorID>2F33DD98-6DA4-0981-C82C-988147D089FA</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E631646-3B6F-7425-4D8D-FEF508D6824E</referredTableID>
+<keyObject>6B0744DC-65FB-E9A0-AC1D-0415EAAD1BC6</keyObject>
+<referredKeyID>6B0744DC-65FB-E9A0-AC1D-0415EAAD1BC6</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0D83727-2763-E301-2C6F-1E1ED2286C70" name="PERFIL">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>48556957-EDFC-5D8C-7EBA-DBCB07180088</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A2269B70-B73C-5873-885D-E930F095E04D">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>C0CE3D2F-0E3A-33DE-F004-C705C3D11F02</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pais" id="7D98F5A3-A507-77DD-782F-C0DC2AE62C94">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>4272F8E4-6BFB-8EE6-2158-81D35ABA22FA</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idioma" id="512A4524-1966-4C5C-73FC-A3AAB2D3EE57">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>1FA26FFA-C88D-3CAA-AD91-BB7F054C8369</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8557B162-AEE8-CA1E-7FEC-F9C9AAC211E7" name="PERFIL PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>63F00586-0AD3-F839-DA9C-6DE911C4BBAF</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2269B70-B73C-5873-885D-E930F095E04D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

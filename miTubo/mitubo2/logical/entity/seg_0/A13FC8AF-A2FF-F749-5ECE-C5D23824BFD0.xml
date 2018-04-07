@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A13FC8AF-A2FF-F749-5ECE-C5D23824BFD0" name="ORDEN_VIDEO">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>B81DD2D7-A28E-0CEE-9119-00F8EEECC932</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Video" id="1A6FFF3D-39FD-8C92-BE10-8070247D4550">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>11BCAA5B-85F4-C2E6-6EE9-A5DA441206E7</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Lista_reproducción" id="C25D176F-AEE0-3763-F8F1-35B9301D1F1C">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>7E77453B-ADAF-73A0-A8A1-2F506F9D1757</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Posición" id="D2198AD8-4C15-7B6E-1E74-A66740222DB0">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>597FA726-DB94-EE93-57DB-2E09F6FEABB1</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="5E56D41B-5D73-C471-8317-65148A8A6586">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<generatorID>A7056920-BE17-72B1-5DB5-CE1973863018</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>FF486856-E0B1-9F99-6565-A686A6FC3049</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<referedAttribute>5EA90F64-DAD8-EF99-8B68-193D7CAE55C3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="2D7AFE9F-FE8D-DE69-87A4-9926EC3AD153">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<generatorID>A7056920-BE17-72B1-5DB5-CE1973863018</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>572EC04B-81AC-6571-0C82-63AF9BDE7DC5</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<referedAttribute>E0B930C0-7C21-5123-E0B7-119BBC8994F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="DA5B765E-543B-8FBE-5C5E-AE3AC01AD303">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<generatorID>549B8AB6-1D14-DA15-86F6-6D179C7C7FD2</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>817DD803-A368-D811-ECEB-60341DFAB043</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<referedAttribute>F268FAB4-3FD5-7632-07A4-CAF053C9C344</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B47861A4-ECAB-EDF0-192E-86B2C59FB8B5" name="ORDEN_VIDEO PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>7022C2AA-4982-D448-3029-173C282EDCED</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E56D41B-5D73-C471-8317-65148A8A6586</attributeRef>
+<attributeRef>2D7AFE9F-FE8D-DE69-87A4-9926EC3AD153</attributeRef>
+<attributeRef>DA5B765E-543B-8FBE-5C5E-AE3AC01AD303</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

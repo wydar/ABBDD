@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="denuncias" directorySegmentName="seg_0" id="C41F9617-78D8-4384-404C-949DC8E732DF">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>36BA3A75-D235-3B04-639B-3C089933B549</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<sourcePk>B3E0AF72-709F-D972-1CF2-8FBE4BE11798</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>puede realizar</nameOnSource>
+<nameOnTarget>es realizada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D0ADACE9-5075-A281-F250-F9C042CCD190</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4212F28C-96CD-C602-CB68-CF98ADF82AF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

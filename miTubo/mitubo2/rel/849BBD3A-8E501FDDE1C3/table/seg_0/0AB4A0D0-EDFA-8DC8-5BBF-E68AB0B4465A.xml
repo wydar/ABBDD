@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AB4A0D0-EDFA-8DC8-5BBF-E68AB0B4465A" name="EMPRESA">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>9BEED16F-D8FE-162E-D105-8B703347776D</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C3A2DB82-13C4-B1F4-EE9B-1B8CA9424096">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>20D36EB5-FE44-08C7-2A26-0FA26E4A9F8C</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEEBCD17-BE9D-20C9-A4F4-3A5E76605506" referredColumn="2C1F6D7E-691C-BDE6-5F93-448FA2F5490A"/>
+</associations>
+</Column>
+<Column name="ID_empresa" id="20E28449-3198-64DC-DFDF-9BBDE5423836">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>C444381A-8E95-CBFB-CB2A-3BCBEF105C66</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB000002-9F7B-5C9D-7386-B3F6C9DE28F9" name="EMPRESA_PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>B3E0AF72-709F-D972-1CF2-8FBE4BE11798</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3A2DB82-13C4-B1F4-EE9B-1B8CA9424096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F4A77FF-91AD-1DC7-D7E9-DC31D0A01BC2" name="EMPRESA_USUARIO_FK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>A31F4CC6-A717-7BAC-4652-BC1DF763E530</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3A2DB82-13C4-B1F4-EE9B-1B8CA9424096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

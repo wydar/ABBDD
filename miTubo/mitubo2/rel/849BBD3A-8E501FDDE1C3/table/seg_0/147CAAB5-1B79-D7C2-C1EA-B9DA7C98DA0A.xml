@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="147CAAB5-1B79-D7C2-C1EA-B9DA7C98DA0A" name="PERFIL">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>A0D83727-2763-E301-2C6F-1E1ED2286C70</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="366600FE-81AC-A8C0-2FBE-796099EE8E88">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>A2269B70-B73C-5873-885D-E930F095E04D</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais" id="3EA4D7BD-592E-D684-DE4D-A9B8E747B192">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>7D98F5A3-A507-77DD-782F-C0DC2AE62C94</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Idioma" id="4D6B8258-8251-51AC-BEEC-ECE1CDE767A7">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>512A4524-1966-4C5C-73FC-A3AAB2D3EE57</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCC9859D-4CB3-FC72-4394-13DC6290A6F4" name="PERFIL_PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>8557B162-AEE8-CA1E-7FEC-F9C9AAC211E7</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="366600FE-81AC-A8C0-2FBE-796099EE8E88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B61A4AE-1CFF-18E8-EFCD-C732E2AE866B" name="dirigido_a">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<generatorID>9AB8A9D4-6139-7189-8EC2-CE439647019D</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

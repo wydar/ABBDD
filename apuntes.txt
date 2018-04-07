@@ -75,3 +75,26 @@ es una fotografia de una o varias tablas en un momento determinado. Se usa para 
 y si la base de datos esta replicada en otro pais o un sitio lejano haces la vista materializada las consultas diarias se hace en la vista y la sensacion
 de rapidez es mayor.
 CREATE MATERIALIZED VIEW <Nombre> <Clausulas> AS <Subconsulta>;
+
+
+-------------------------------------------------------TEMA 3 NIVEL FISICO DE UNA BASE DE DATOS--------------------------------------------------------
+
+el almacenamiento fisica se almacena de la logica se separa para si me llevo la BBDD a otro S.O. no tenga que decir de nuevo donde se guarda la informacion
+
+Cuando te instalas Oracle te instalas el SGBD una vez instalado puedes montar una BBDD.
+Cada BBDD está relacionada con una instancia (una instancia es un espacio de memoria RAM que se queda Oracle).
+
+IMAGEN
+
+DataBase Buffer Cache: hay cuadrados que estan mas oscuros que otros eso significa que alguien ha escrito en ese sitio
+proceso DVWn: coge los que llevan mas tiempo en espera y los graba.
+RedoLogBuffer: buffer circular secuencial que se anota todos los cambios en la BBDD
+LogWriter (LGWR): proceso que anota los cambios realizados en la BBDD
+ARCn: coge los ficheros Redo y se los lleva los más lejos posible (otro disco, otro servidor, etc)
+
+ARBOLES B
+cuando se inserta una fila se crea un ROWID y ese ya no cambia, solo cuando se elimina las filas
+
+INDICES
+cuando creamos una clave primaria o una restriccion unique oracle crea un indice automaticamente.
+tambien podemos crear un indice sobre una funcion

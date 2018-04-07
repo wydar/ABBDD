@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E81AE8A5-0790-DFAE-4833-02424A24FE9A" containerWithKeyObject="20B69B8D-F89C-7B7A-11EA-3DA69A9D193B" localFKIndex="4C0440CC-B66D-ED29-BF61-B9763A81285C" name="DENUNCIA_VIDEO_FK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:24 UTC</createdTime>
+<generatorID>B63FB20E-2E46-7A86-DD00-E440DF2E292F</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7339F1B1-B6F5-5554-5ACF-980DADEA0803</referredTableID>
+<keyObject>437833F4-872B-3467-90D8-7BB90A84A5D8</keyObject>
+<referredKeyID>437833F4-872B-3467-90D8-7BB90A84A5D8</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

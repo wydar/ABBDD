@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="denuncias sobre un video" directorySegmentName="seg_0" id="B63FB20E-2E46-7A86-DD00-E440DF2E292F">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:01:52 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<importedID>6143FE09-A2C1-9164-3575-99075FF473C1</importedID>
+<engineerTo>
+<item key="5E100A4E-8170-7519-FEEB-E72790C243B1" value="true"/>
+<item key="849BBD3A-5CF1-9699-D1A8-8E501FDDE1C3" value="true"/>
+</engineerTo>
+<sourcePk>C3D14BE2-8A7F-5B1D-28DB-B0F8E5B9B61C</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>puede tener</nameOnSource>
+<nameOnTarget>es sobre</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D555612-637B-1E09-CADE-C940A36B48EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4212F28C-96CD-C602-CB68-CF98ADF82AF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

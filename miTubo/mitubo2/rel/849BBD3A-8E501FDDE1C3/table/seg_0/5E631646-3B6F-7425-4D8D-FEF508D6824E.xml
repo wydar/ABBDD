@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E631646-3B6F-7425-4D8D-FEF508D6824E" name="ANUNCIOS">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>318121C0-545E-0E16-76DB-9C9E94031B3E</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="866B37DF-BF45-35BF-9233-E18530D0B291">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>5EA90F64-DAD8-EF99-8B68-193D7CAE55C3</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BDC4EB1-1BE4-673C-8DCF-BA20F8671284" referredColumn="95ED9B91-B9E6-85FC-ABA9-81F42977C9B2"/>
+</associations>
+</Column>
+<Column name="idioma" id="FFCE8429-8338-51D6-98FD-E0B9208855D0">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>CE96EC04-9B8C-35E6-82D6-13821D36D635</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="412F2781-B1FE-A948-A21B-C6537CD4D57A">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>A56E7127-D1ED-D1F2-7AE7-F48DF1DF0AD0</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id" id="8EE05399-ABE4-6A29-FF00-5FB8CA272128">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>2DAF12AB-66C6-CD61-143E-A182FAE1BCE1</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F33371E-89A6-49A8-5B09-DCF3F689B1A2" referredColumn="C3A2DB82-13C4-B1F4-EE9B-1B8CA9424096"/>
+</associations>
+</Column>
+<Column name="id3" id="4D3CA361-A5DA-F954-0D11-BB4261FB486C">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>E0B930C0-7C21-5123-E0B7-119BBC8994F5</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BDC4EB1-1BE4-673C-8DCF-BA20F8671284" referredColumn="2818E176-80DB-3D04-8879-FAB46A818393"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54176BD3-D71D-D3EB-8A08-DA9D51C08164" name="ANUNCIOS_PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>C3D14BE2-8A7F-5B1D-28DB-B0F8E5B9B61C</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="866B37DF-BF45-35BF-9233-E18530D0B291"/>
+<colUsage columnID="4D3CA361-A5DA-F954-0D11-BB4261FB486C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B0744DC-65FB-E9A0-AC1D-0415EAAD1BC6" name="ANUNCIOS_PKv1">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>A936E83B-90A3-2948-6F15-1138D31BF3F5</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EE05399-ABE4-6A29-FF00-5FB8CA272128"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C917FAD0-A98F-138A-3EB4-F037C6954A25" name="ANUNCIOS_VIDEO_FK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>AF00058C-2D13-9976-EDE5-3EC3DB085E3A</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="866B37DF-BF45-35BF-9233-E18530D0B291"/>
+<colUsage columnID="4D3CA361-A5DA-F954-0D11-BB4261FB486C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D95086E5-90B9-8635-795C-A479501214E6" name="ANUNCIOS_EMPRESA_FK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:24 UTC</createdTime>
+<generatorID>0A79D0CF-3892-830B-4B98-BF407AE02E24</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EE05399-ABE4-6A29-FF00-5FB8CA272128"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1190C917-286B-749F-A2DD-75613FC6644C" name="dirigido_av1">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<generatorID>9AB8A9D4-6139-7189-8EC2-CE439647019D</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

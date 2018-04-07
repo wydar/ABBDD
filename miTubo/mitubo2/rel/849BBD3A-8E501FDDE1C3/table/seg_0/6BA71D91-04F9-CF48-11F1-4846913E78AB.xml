@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BA71D91-04F9-CF48-11F1-4846913E78AB" name="Relation_27">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIDEO_id" id="7D6BE4BF-3479-732C-108B-4C7976183F1A">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99494D5D-EE05-DE7A-E2DD-8DF27BF64BCC" referredColumn="95ED9B91-B9E6-85FC-ABA9-81F42977C9B2"/>
+</associations>
+</Column>
+<Column name="VIDEO_USUARIO_id" id="369B5178-CACA-B794-0893-2434DF8BF6E1">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99494D5D-EE05-DE7A-E2DD-8DF27BF64BCC" referredColumn="2818E176-80DB-3D04-8879-FAB46A818393"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_id" id="3CBE42D1-FC96-BC9C-C3C3-EF14A527A5F4">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DD93BC2-9A93-3067-0C5F-4FFAD1325943" referredColumn="4563BD3D-DD31-B9B5-58C8-72CD18E78A84"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4F89E20-3C44-8751-3576-F3AF1C0913E5" name="Relation_27_PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<ownerDesignName>mitubo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D6BE4BF-3479-732C-108B-4C7976183F1A"/>
+<colUsage columnID="369B5178-CACA-B794-0893-2434DF8BF6E1"/>
+<colUsage columnID="3CBE42D1-FC96-BC9C-C3C3-EF14A527A5F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="112B31C8-1BED-A60E-B776-95837BDAF220" name="FK_ASS_65">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<generatorID>C01FAC09-449B-6ECC-4B2C-3A4933E94F1F</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D6BE4BF-3479-732C-108B-4C7976183F1A"/>
+<colUsage columnID="369B5178-CACA-B794-0893-2434DF8BF6E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CC68B55-1A10-09A8-04FF-805A9C587302" name="FK_ASS_66">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:23:07 UTC</createdTime>
+<generatorID>C01FAC09-449B-6ECC-4B2C-3A4933E94F1F</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CBE42D1-FC96-BC9C-C3C3-EF14A527A5F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

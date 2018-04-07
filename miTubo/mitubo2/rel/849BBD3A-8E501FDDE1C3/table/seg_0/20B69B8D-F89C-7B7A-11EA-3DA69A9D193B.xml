@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20B69B8D-F89C-7B7A-11EA-3DA69A9D193B" name="DENUNCIA">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>4212F28C-96CD-C602-CB68-CF98ADF82AF1</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo" id="4E2BDBCE-4914-546F-A38C-EA124F197BD7">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>9258C9E3-46B9-51C4-94E0-455ACFDC536F</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id" id="C65BCC8E-03F3-7584-2176-37CA6C7FA13D">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>4083E7D1-F0ED-39FF-FACE-563FBB4EE96F</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="725F8824-C467-FE16-E63F-BD548F4E8995" referredColumn="2C1F6D7E-691C-BDE6-5F93-448FA2F5490A"/>
+</associations>
+</Column>
+<Column name="VIDEO_id" id="98EA3DA1-2733-5F10-6B20-F6E0461F4DA8">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>12DF2C8A-809E-C00C-5482-2A8E5659416F</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81AE8A5-0790-DFAE-4833-02424A24FE9A" referredColumn="95ED9B91-B9E6-85FC-ABA9-81F42977C9B2"/>
+</associations>
+</Column>
+<Column name="VIDEO_USUARIO_id" id="9FDC4FA5-53FF-83C0-82AF-8115FD941695">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>9A135F1A-9BA2-30BE-4D8F-B603D708CB15</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81AE8A5-0790-DFAE-4833-02424A24FE9A" referredColumn="2818E176-80DB-3D04-8879-FAB46A818393"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7113FA1-6921-AE63-955A-3978D5FD987A" name="DENUNCIA_PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:23 UTC</createdTime>
+<generatorID>192CB62C-127F-092C-FEC8-4EBD9BF36765</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C65BCC8E-03F3-7584-2176-37CA6C7FA13D"/>
+<colUsage columnID="98EA3DA1-2733-5F10-6B20-F6E0461F4DA8"/>
+<colUsage columnID="9FDC4FA5-53FF-83C0-82AF-8115FD941695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34A8A9E5-60D7-F6AF-A6CF-ADE45FE81AC5" name="DENUNCIA_USUARIO_FK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:24 UTC</createdTime>
+<generatorID>C41F9617-78D8-4384-404C-949DC8E732DF</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C65BCC8E-03F3-7584-2176-37CA6C7FA13D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C0440CC-B66D-ED29-BF61-B9763A81285C" name="DENUNCIA_VIDEO_FK">
+<createdBy>alumnos</createdBy>
+<createdTime>2018-04-07 17:02:24 UTC</createdTime>
+<generatorID>B63FB20E-2E46-7A86-DD00-E440DF2E292F</generatorID>
+<ownerDesignName>mitubo2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98EA3DA1-2733-5F10-6B20-F6E0461F4DA8"/>
+<colUsage columnID="9FDC4FA5-53FF-83C0-82AF-8115FD941695"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
