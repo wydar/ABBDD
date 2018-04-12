@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAC3F211-3274-B7D4-261D-2F2EA886BF1F" name="USUARIO">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>2915AE39-EAAC-5B3B-EA4C-C4AE800E407E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="73032142-8EF8-D138-D67D-52718048EE5A">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>324278D7-4043-43F5-F722-D32E444C4ED3</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alias" id="2C6D8426-7698-0FE4-99F6-453DB8A0B005">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>A17600BD-DAC6-4D36-71A6-C08373C93E33</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="11F58752-E8F9-0099-2886-598B8693F6C3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>2B4465E6-7AB7-5669-3E4E-2FDFB6E6109A</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="B753822A-7727-1363-CB5F-64C9F3B4FAE4">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>FEFFEBF5-9F32-78DC-4D3C-94FE1534265C</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_electronico" id="B3FAFC26-9ABB-CAB7-AA17-93F72BA0DC66">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>A553D097-F3CE-9884-B4DB-64F31C012D3E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto" id="CEC7B1A5-3F3B-D262-59F4-C9E8EE856366">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>9C8AAA10-5B36-2FC6-359C-329A168AA147</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="76D31B7B-CB60-99DD-787C-E740C2C4BDCE">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>2E540E15-3218-82BA-C938-96338DC41943</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idioma" id="8583264C-51DE-F26E-00C6-F74E0F6786B9">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>C9B1E0E0-0BF4-78CB-B87A-00DA9C73816E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="97E2D8AE-4508-ADDD-EF8F-2A0D5B0DF12E">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>C866B156-DC68-4B9E-967D-BEF6793487B6</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANAL_id_canal" id="3ADEB003-4C2C-9DB8-6AE0-0401F572476C">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>61D44CC3-5658-B0BB-3588-1C52DDC74D2A</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E97CC4F2-3EEE-7792-3538-C64AF0E4F0AE" referredColumn="B50E912E-6323-901B-4B6A-26013093E3C5"/>
+</associations>
+</Column>
+<Column name="PERFIL_id" id="8D10ECAB-05E0-F7BD-0C1C-83B8862F04EB">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>D1D3696B-A622-9430-5540-1DD6F8E2F6BD</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="318B4F55-53E4-C6A1-68A6-A88F73095A8A" referredColumn="6122FCF3-D225-356C-23F0-B94ECCD24995"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06702D2E-25A9-FA36-0E38-1307EEBFFB96" name="USUARIO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>20738573-3ACC-EEA3-537B-34A008769072</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73032142-8EF8-D138-D67D-52718048EE5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFFAADD5-7619-224F-8364-2C043077C9FD" name="USUARIO__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4E0FED5A-F5E6-7EEE-D6E6-0FDB72F9BCAD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3ADEB003-4C2C-9DB8-6AE0-0401F572476C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="02BE7078-0399-8516-984E-11E302407CD8" name="USUARIO_PERFIL_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>1ED3805E-0500-A9E5-5897-8ED47216A295</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D10ECAB-05E0-F7BD-0C1C-83B8862F04EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64DE241F-F840-9F35-EF5D-BB5F727FEC19" name="USUARIO_CANAL_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>4E0FED5A-F5E6-7EEE-D6E6-0FDB72F9BCAD</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ADEB003-4C2C-9DB8-6AE0-0401F572476C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

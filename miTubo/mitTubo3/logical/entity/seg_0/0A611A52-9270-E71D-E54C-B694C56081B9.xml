@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A611A52-9270-E71D-E54C-B694C56081B9" name="PERFIL">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>A0D83727-2763-E301-2C6F-1E1ED2286C70</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_perf" id="EBA7E249-95E4-EE9C-D793-47200F791001">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>A2269B70-B73C-5873-885D-E930F095E04D</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pais" id="38DBF9D2-CC76-46AD-E6F8-2F3AF31672A2">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>7D98F5A3-A507-77DD-782F-C0DC2AE62C94</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idioma" id="E62ACB2E-D417-0589-6AA6-1CF5887F226C">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>512A4524-1966-4C5C-73FC-A3AAB2D3EE57</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="346503B0-D0B8-FBAB-3E2C-968828522B71" name="PERFIL PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>8557B162-AEE8-CA1E-7FEC-F9C9AAC211E7</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="false"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBA7E249-95E4-EE9C-D793-47200F791001</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

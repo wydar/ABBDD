@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="231AEA30-EAC3-FAB5-DCA2-A3C619CD70F7" name="ANUNCIOS">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>318121C0-545E-0E16-76DB-9C9E94031B3E</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>4A809F54-F213-172D-35D4-3FEBCA76FCBB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idioma" id="4F1C3697-B11A-29D6-A25C-0D55895EC543">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>CE96EC04-9B8C-35E6-82D6-13821D36D635</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="91E3AEEC-CAFA-F03A-DF1B-E2445566DD64">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>A56E7127-D1ED-D1F2-7AE7-F48DF1DF0AD0</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="78C74681-5762-DEB3-7D2F-EC38226B63A7">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>91338E4A-A702-2398-5608-8AF8FA782ECA</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>2DAF12AB-66C6-CD61-143E-A182FAE1BCE1</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<referedAttribute>324278D7-4043-43F5-F722-D32E444C4ED3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="819AA82C-DDD6-AD9D-BA72-88406E83D58E" name="ANUNCIOS PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>A936E83B-90A3-2948-6F15-1138D31BF3F5</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78C74681-5762-DEB3-7D2F-EC38226B63A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

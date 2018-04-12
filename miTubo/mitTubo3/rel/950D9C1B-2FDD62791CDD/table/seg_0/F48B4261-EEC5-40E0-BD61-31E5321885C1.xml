@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F48B4261-EEC5-40E0-BD61-31E5321885C1" name="Relation_27">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>6BA71D91-04F9-CF48-11F1-4846913E78AB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIDEO_id" id="17CA1892-ACD6-C45C-3AF6-9CC468EA7584">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>7D6BE4BF-3479-732C-108B-4C7976183F1A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6C7CA71-8BD6-B087-EA19-C08CF3B8607C" referredColumn="2B52650E-090B-2A40-3CFB-22AF58F2F40C"/>
+</associations>
+</Column>
+<Column name="VIDEO_USUARIO_id" id="21EF820F-B304-A002-847C-75DF6DD77F32">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>369B5178-CACA-B794-0893-2434DF8BF6E1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6C7CA71-8BD6-B087-EA19-C08CF3B8607C" referredColumn="1B8D8407-0F61-B730-CEAF-42B51C020530"/>
+</associations>
+</Column>
+<Column name="CATEGORIA_id" id="DAA47BBD-CEEA-BADF-FCB4-6FB40EAD1B69">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>3CBE42D1-FC96-BC9C-C3C3-EF14A527A5F4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D1F3F76-E34E-BA1A-CABD-C0F9C640CED4" referredColumn="2EDD9BD0-B66A-D336-B2CD-4EB7B19EA4E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F675D67-BE49-D932-FEA8-4EE9FCD53D51" name="Relation_27_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>D4F89E20-3C44-8751-3576-F3AF1C0913E5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17CA1892-ACD6-C45C-3AF6-9CC468EA7584"/>
+<colUsage columnID="21EF820F-B304-A002-847C-75DF6DD77F32"/>
+<colUsage columnID="DAA47BBD-CEEA-BADF-FCB4-6FB40EAD1B69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="701A90FC-6744-752A-4F8C-A8E8480D8807" name="FK_ASS_66">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>65CC4CF7-7746-3198-ACBB-A059EDC9BCF7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAA47BBD-CEEA-BADF-FCB4-6FB40EAD1B69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E04E907-A7B0-0AFB-4154-2DA331DC3574" name="FK_ASS_65">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>65CC4CF7-7746-3198-ACBB-A059EDC9BCF7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17CA1892-ACD6-C45C-3AF6-9CC468EA7584"/>
+<colUsage columnID="21EF820F-B304-A002-847C-75DF6DD77F32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

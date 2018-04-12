@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6DCD2EA-30A7-68ED-7BEB-C01531A2C042" name="OPCIONES">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>A1E6CDC7-1FF4-9A9A-C90D-CCBA54FA0F95</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>D961F2B9-B69A-640E-0626-7B14EB45822B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F8699CB7-DDD4-54A6-365C-96B3802DD590">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>40EB1CE6-F117-4A51-B5BB-33E699FB221D</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>FFB498C1-8C4E-6E09-4150-9934FA6F8015</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="42D10FC9-9D81-51E6-0E21-FBF134983504">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>A19D10DB-AFE6-BABC-0A3C-D2AE1230675B</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>9E377E17-5341-EE60-8C57-2E707D8952F8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="FA8837D7-8B37-DBD8-3E79-1247CF964B80">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>51EF0E9F-938B-FCCD-8153-65E60556D42B</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>7CC65C9B-666A-AE6D-E765-4AC233CA865D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_defecto" id="6831D6AF-13CB-5A47-AF01-CE89BBBE071B">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>24489ED8-3ED5-5ED9-77EF-13C15D18643A</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>9652AFEC-8C13-247E-038C-3642EDAE3EBC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="F56EB5FF-E296-5F18-DB07-80C9D925FB97">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>1E2C694D-B60C-1F61-1AC3-BD535CD98043</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>383A9552-5274-C206-8670-1F74176F0E39</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="Boolean" description=""/>
+<valueDef value="Integer" description=""/>
+<valueDef value="String" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9A2388A-7796-E507-BD15-98261CFA0E41" name="OPCIONES_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>5AF81B35-077F-C128-7ED4-9C36ACF3C023</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>D522EAEF-A538-4F8A-0723-8178839D5FEF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8699CB7-DDD4-54A6-365C-96B3802DD590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CC52739-BB56-6956-5960-CC1B5973FEF0" name="opciones">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>EF25D94E-A366-C2FC-098A-88627F216B79</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

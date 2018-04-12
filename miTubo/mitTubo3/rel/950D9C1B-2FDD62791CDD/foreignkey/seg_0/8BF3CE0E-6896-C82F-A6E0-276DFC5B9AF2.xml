@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BF3CE0E-6896-C82F-A6E0-276DFC5B9AF2" containerWithKeyObject="C3B690CA-D20B-4981-9790-C964FA1CFAE7" localFKIndex="55A5F76C-39C7-DBC6-C860-E371593126B2" name="TARIFAS_EMPRESA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>E5AC7FD1-8772-B7F9-3C1B-5DE84CBBA4A9</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>C4A4ABDA-4632-B16E-4231-F7F4CE6EEB98</importedID>
+<referredTableLongName>EMPRESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3357DC13-BE1A-5DA4-7D12-33FD2B43317F</referredTableID>
+<keyObject>C4165D0D-CC81-2B11-8026-10C9E055E463</keyObject>
+<referredKeyID>C4165D0D-CC81-2B11-8026-10C9E055E463</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

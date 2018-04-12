@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13D0100E-43E2-D13B-FCDA-3D5C6B116F23" name="PAGOS">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>71A46211-5F51-405B-04D2-20393003F192</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario" id="6DB22A76-1887-3A50-A74F-FC2C7682B428">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>04D8C40C-4221-C28D-0AEC-261FBD0E9119</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Video" id="E4F88B68-FDD5-7172-A4FF-FA5F95AD73D2">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>8F3C62EC-2D69-7AEA-E2CD-68B045BAEB0E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Visualizaciones" id="A9CBBC14-EF74-B45C-3F90-6D4028CE887D">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>522E3A5E-5C96-DC55-0B1A-4DAD1FEEE97B</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cantidad_abonada" id="D466F102-4F69-E50D-C629-7DB7A1B1C7A0">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>C547538A-17EE-AE7B-5A0E-2EA243799787</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id" id="8365DF03-FE8E-FE0A-B0F3-EACDAB4965B5">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>D6B79215-FDEE-653E-2E0B-254CDB6C36E4</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0062AD02-25B3-9793-CDBE-72F5767063C8" referredColumn="73032142-8EF8-D138-D67D-52718048EE5A"/>
+</associations>
+</Column>
+<Column name="VIDEO_id" id="C6D0217D-A035-CEDE-8AA9-88D06D4EF478">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>28EB471C-FF2B-4CB7-CCF4-F5D00B34A0FD</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66398BC1-F87B-71E0-7D22-4E7CE72A2C5B" referredColumn="52A66A37-4A3E-F9A4-2B4A-403EFE660F6C"/>
+</associations>
+</Column>
+<Column name="VIDEO_USUARIO_id" id="4D836EC9-6EA6-B806-A1C9-D3624301E3C6">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>513CB203-3317-B778-BB60-FEDF380E7E73</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDEO_id_user" id="4C5D1428-DCDD-4522-C753-C6FAB2382F6B">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66398BC1-F87B-71E0-7D22-4E7CE72A2C5B" referredColumn="CDC8AC81-F4FD-00FE-74D8-37E7229C3B18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AA92E75-CCF5-8ED0-76F3-068D02D50B7B" name="PAGOS_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>02F0EFD2-EC1E-FF7A-A25C-C532D8E4C91D</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8365DF03-FE8E-FE0A-B0F3-EACDAB4965B5"/>
+<colUsage columnID="C6D0217D-A035-CEDE-8AA9-88D06D4EF478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63451A21-11B9-3699-199F-243CFF0C90B4" name="PAGOS_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>719A6610-D01B-D52E-743C-208726D107A7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8365DF03-FE8E-FE0A-B0F3-EACDAB4965B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7A61CDC-2768-1549-0D11-C27ECF00D097" name="PAGOS_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>A96BAD83-84C1-6121-C82A-B3AF6B18FF48</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6D0217D-A035-CEDE-8AA9-88D06D4EF478"/>
+<colUsage columnID="4C5D1428-DCDD-4522-C753-C6FAB2382F6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

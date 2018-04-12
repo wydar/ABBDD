@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D8B27F6-2036-F476-340F-32CDA682B4EC" name="OPCIONES">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>A1E6CDC7-1FF4-9A9A-C90D-CCBA54FA0F95</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_options" id="3A4565CE-2784-5D68-4900-080D6AC2A149">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>40EB1CE6-F117-4A51-B5BB-33E699FB221D</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5B1AB699-0806-4EF1-4697-40350D00B4E5">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>A19D10DB-AFE6-BABC-0A3C-D2AE1230675B</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="BEBC9DC3-627E-A7CA-3AE6-86724FF80EDD">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>51EF0E9F-938B-FCCD-8153-65E60556D42B</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_defecto" id="86371A76-9918-6B81-FD56-226961ABD4CF">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>24489ED8-3ED5-5ED9-77EF-13C15D18643A</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="34665649-F52A-1A34-908B-1EF1CAB95C28">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>1E2C694D-B60C-1F61-1AC3-BD535CD98043</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="Boolean" description=""/>
+<valueDef value="Integer" description=""/>
+<valueDef value="String" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6B8253A-F09E-AC90-2445-621552336DE4" name="OPCIONES_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>5AF81B35-077F-C128-7ED4-9C36ACF3C023</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A4565CE-2784-5D68-4900-080D6AC2A149"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

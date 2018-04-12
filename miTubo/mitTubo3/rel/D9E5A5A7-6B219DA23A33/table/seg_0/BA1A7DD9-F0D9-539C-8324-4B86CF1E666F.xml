@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA1A7DD9-F0D9-539C-8324-4B86CF1E666F" name="Notificaciones">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>CBFE1091-19AA-D61A-222B-F44C91C20870</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_notif" id="D155FD97-99C1-4D48-463E-8BE934256D7E">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>8AEA439B-888A-86E4-FCC4-C7378846729C</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="D3D8377D-FEB9-B019-2A41-2EAC4126B5CD">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>AC5F0356-B139-37AD-0B0B-209E1A4205DF</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="BA71860A-9A08-8FFD-8075-22E8D9EE94A9">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>0AED543E-8018-C8A4-9623-736D5905AA2A</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id_user" id="B400FD21-A5E4-8C88-8F1F-4933A20FA517">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>60E5B03B-2019-EE68-6928-79E1D39EE6D3</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C204892C-7793-1DA4-D27F-E0E6DA3785F4" referredColumn="73032142-8EF8-D138-D67D-52718048EE5A"/>
+</associations>
+</Column>
+<Column name="VIDEO_id_video" id="CF92633A-C6BA-AB68-E8C8-2C41C1B748CA">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>1703A9F8-B2DA-3261-6F3A-21FD03137945</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA3DB3BD-DB0D-7E9B-3D0A-D58484DB0881" referredColumn="52A66A37-4A3E-F9A4-2B4A-403EFE660F6C"/>
+</associations>
+</Column>
+<Column name="DENUNCIA_USUARIO_id" id="FDF5F81F-3DA8-CB1A-CB55-FFEC211216D6">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>958761F0-C8FE-1A09-AA0A-41F9DDE9EBFF</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AC052C3-AB5F-775A-C290-BB352FB90650" referredColumn="F3BEAECC-F4C6-68F4-2799-36F3F6193508"/>
+</associations>
+</Column>
+<Column name="DENUNCIA_VIDEO_id" id="C6BE46E5-9944-C302-BF9C-727C76A54173">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>6F7D8813-B5D8-B70B-5E83-49F9887B37D6</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AC052C3-AB5F-775A-C290-BB352FB90650" referredColumn="7C95C9D5-A888-E0BA-C77B-3993642BA78C"/>
+</associations>
+</Column>
+<Column name="COMENTARIO_USUARIO_id" id="C2D88EBC-9CE0-8AC8-03B0-9A792D85D803">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>527EF30A-0309-42D5-9992-742B0319A0AF</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="282D9A9D-6763-D506-D2E7-26ADF6B7D81D" referredColumn="C0DA706C-6267-9100-ABD1-F5FF90EB462F"/>
+</associations>
+</Column>
+<Column name="COMENTARIO_VIDEO_id" id="0EFB79E4-2048-A958-EF1B-9D6C929304F9">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>978A0329-0C2C-FC85-3EFC-DCA59E62209E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="282D9A9D-6763-D506-D2E7-26ADF6B7D81D" referredColumn="64D5846B-AD34-43E9-4E14-7BF08AA99945"/>
+</associations>
+</Column>
+<Column name="COMENTARIO_id_coment" id="148B2F06-001B-1F65-071A-637437790723">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>87BFEC62-665A-2CC0-235C-EA37E25C88B2</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="282D9A9D-6763-D506-D2E7-26ADF6B7D81D" referredColumn="05D69199-42F2-25EB-8296-03F1199F0FC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4EBFBB7-8B7E-0C82-CB16-335431D7AE63" name="Notificaciones_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>8017D3A1-A9F8-F6D7-F20C-920FAEBF73DA</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D155FD97-99C1-4D48-463E-8BE934256D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1131A1DC-E094-DA08-E690-EB74F7FF66AD" name="Notificaciones_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>D7FEC41B-7233-DA01-EE52-F9162730E377</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B400FD21-A5E4-8C88-8F1F-4933A20FA517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="919276E0-86BC-A956-7728-87E51998DAEE" name="Notificaciones_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>BAC4DB69-5AFF-3F7F-5AE7-B70F235913D3</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF92633A-C6BA-AB68-E8C8-2C41C1B748CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63CF20DD-54F2-7499-9ACE-B49B054EC470" name="Notificaciones_DENUNCIA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>ADF1AD1A-7383-892E-87D6-047C92DAA4F0</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDF5F81F-3DA8-CB1A-CB55-FFEC211216D6"/>
+<colUsage columnID="C6BE46E5-9944-C302-BF9C-727C76A54173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="404BEFCC-D072-5C33-4D45-921D359CE61E" name="Notificaciones_COMENTARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<generatorID>736C9A8C-73FA-D42A-B870-70DAE3183AB1</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2D88EBC-9CE0-8AC8-03B0-9A792D85D803"/>
+<colUsage columnID="0EFB79E4-2048-A958-EF1B-9D6C929304F9"/>
+<colUsage columnID="148B2F06-001B-1F65-071A-637437790723"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Notificaciones_CK_1" directorySegmentName="seg_1" id="7CA9FCF6-705E-C16E-74A1-B6CBA5F94CB4">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-09 12:09:16 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<rule>( (USUARIO_id_user is not null) and (VIDEO_id_video is null) and (DENUNCIA_USUARIO_id is null) ) or ( (USUARIO_id_user is null) and (VIDEO_id_video is not null) and (DENUNCIA_USUARIO_id is null) ) or( (USUARIO_id_user is null) and (VIDEO_id_video is null) and (DENUNCIA_USUARIO_id is not null) )</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

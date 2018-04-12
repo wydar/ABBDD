@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="comentar" directorySegmentName="seg_0" id="B9E7B627-AEAA-1B9A-0539-B70B5D2F5C9E">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>4C3E0388-47C0-D284-E793-387311796D64</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<sourcePk>20738573-3ACC-EEA3-537B-34A008769072</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>puede hacer un</nameOnSource>
+<nameOnTarget>es realizado por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2915AE39-EAAC-5B3B-EA4C-C4AE800E407E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FFE379BC-193D-6C90-843B-039ECBF0A44F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

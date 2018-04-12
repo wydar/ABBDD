@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="387F7B94-027E-975A-4BB9-6121D524455D" name="LISTAS_DE_REPRODUCCION">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>84CABAF7-106A-1743-4334-2E60338929A0</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>C1C6EA47-2FF6-08F5-25E5-8E9ECC6DFCC3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3F881FB6-B049-EC32-3BC0-61F9AAC98023">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>B0F772D0-594D-846F-41C1-CA9A8A1561FF</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>73B7A929-6E40-695C-EB41-E654712027AE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="22D77C57-849F-4925-A8CD-23AA9066D034">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>FB7FF2E5-16F5-8F99-AAD0-9EDC4BDD5578</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>01846AA1-4B62-C993-A129-F4FF066F5E09</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ambito" id="93A1EC50-6264-E3B0-A62D-95389A97CCD4">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>E8674813-AD25-2EE7-20B0-3D143C0D15E3</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>E720F803-0AB4-BEB5-1221-24047F779FD3</importedID>
+<constraintName>Ámbito</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<listOfValues>
+<valueDef value="Privado" description=""/>
+<valueDef value="Público" description=""/>
+</listOfValues>
+<defaultValue>Público</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Creador" id="7F2BFBF7-9999-C49F-DE97-47D0CAAECFF3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>D5CEF8DA-E54D-8B52-6DE8-568B9860CD82</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>0AADC2AC-CAA3-B849-9FB6-AD8B70E40834</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A184FDE-43AB-D051-5C03-E06883356093" name="LISTAS_DE_REPRODUCCION_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>445FBE48-260F-597A-5F86-58EA82ED729F</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>4C9D25B8-B18C-DEE5-C706-924121D188D4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F881FB6-B049-EC32-3BC0-61F9AAC98023"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

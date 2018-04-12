@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E519AEFE-BF7D-C95D-7D42-9E0F21602BC4" name="ANUNCIOS">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>231AEA30-EAC3-FAB5-DCA2-A3C619CD70F7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>5E631646-3B6F-7425-4D8D-FEF508D6824E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DCF3B7B7-927B-A8E9-7E9B-1EED9CF8C869">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>F85060AD-01EE-2AAD-A8AA-DFFF13223F78</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>866B37DF-BF45-35BF-9233-E18530D0B291</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54C6F9AB-0283-88CE-4BFE-8A9D64AC9E00" referredColumn="2B52650E-090B-2A40-3CFB-22AF58F2F40C"/>
+</associations>
+</Column>
+<Column name="idioma" id="C713A1DB-9931-F9B9-392E-00B35E5A6F67">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>4F1C3697-B11A-29D6-A25C-0D55895EC543</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>FFCE8429-8338-51D6-98FD-E0B9208855D0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="F4BFEA5F-3103-E262-8337-EFD6956E6BBA">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>91E3AEEC-CAFA-F03A-DF1B-E2445566DD64</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>412F2781-B1FE-A948-A21B-C6537CD4D57A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id" id="0F85FC95-9C47-D13B-2472-B799683C3448">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>78C74681-5762-DEB3-7D2F-EC38226B63A7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>8EE05399-ABE4-6A29-FF00-5FB8CA272128</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="774ED070-2FAF-99CE-6C07-255861B22788" referredColumn="0C5CDD9A-977B-5B02-3467-B370EBE264C8"/>
+</associations>
+</Column>
+<Column name="id3" id="E8B846A1-41FE-83A5-8A40-0B1F9102305B">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>6F35D4CA-EAD7-215D-983A-6A141C73F983</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>4D3CA361-A5DA-F954-0D11-BB4261FB486C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54C6F9AB-0283-88CE-4BFE-8A9D64AC9E00" referredColumn="1B8D8407-0F61-B730-CEAF-42B51C020530"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDD2508F-3D1F-715E-3C46-79DDF4D04791" name="ANUNCIOS_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>68E64690-8CDD-A702-ADB2-28CF18A03951</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>54176BD3-D71D-D3EB-8A08-DA9D51C08164</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF3B7B7-927B-A8E9-7E9B-1EED9CF8C869"/>
+<colUsage columnID="E8B846A1-41FE-83A5-8A40-0B1F9102305B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C4E8728-4F45-7356-2558-02C073C8BC35" name="ANUNCIOS_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>819AA82C-DDD6-AD9D-BA72-88406E83D58E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>6B0744DC-65FB-E9A0-AC1D-0415EAAD1BC6</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F85FC95-9C47-D13B-2472-B799683C3448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B5031DC-A2CC-B7AA-75F8-C520B735CC56" name="ANUNCIOS_EMPRESA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>91338E4A-A702-2398-5608-8AF8FA782ECA</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F85FC95-9C47-D13B-2472-B799683C3448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AAC8678-3023-0D9A-D35D-3D9B59A20384" name="ANUNCIOS_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>54D03B7D-A5DB-7536-549E-D47DBA6CBDCE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF3B7B7-927B-A8E9-7E9B-1EED9CF8C869"/>
+<colUsage columnID="E8B846A1-41FE-83A5-8A40-0B1F9102305B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="302D9996-3454-2DEC-CE68-0BE87B235771" name="dirigido_av1">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>1DE2BA0B-F5E7-52DF-F81B-6171C873A9FE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

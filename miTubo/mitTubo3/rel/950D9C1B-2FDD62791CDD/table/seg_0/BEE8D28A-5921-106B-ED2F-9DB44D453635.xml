@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEE8D28A-5921-106B-ED2F-9DB44D453635" name="COMENTARIO">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>FFE379BC-193D-6C90-843B-039ECBF0A44F</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>08DA2384-D394-CE10-362A-BB1CDEA2065D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comentario" id="47B92FA3-99FF-DF0E-2B7A-CD3D501389A3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>4A91BA28-7BCB-5BC6-AE69-35C60A1F215A</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>A89DF160-3296-9233-D2FF-391390D84187</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="ECB6320E-D52E-CED5-A3B3-F20DB1D3E69B">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>9D320B53-CCF1-DD55-00DA-BBFCFE678E1C</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>EFC87AA3-B376-25F5-B253-685FD4091241</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="98178225-E2C5-D3EA-0AD9-77339E1A522F">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>DA47AC29-07F0-7A13-0CCD-A661244C65D6</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>2EE48716-763F-71AA-CD36-2858D8A6DEEB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_id" id="20F55655-0C20-1CD0-E8EC-78C2C41A4D18">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>AA4A8042-37AD-138B-5D25-D61DC6D9DB29</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>445DD67C-9A7A-2166-719B-B4D8D512FC6E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80B73114-EB58-70F7-151E-EDC7852E44A9" referredColumn="BCA95D37-E77D-7A6B-2EF5-593C51690496"/>
+</associations>
+</Column>
+<Column name="COMENTARIO_USUARIO_id" id="E960997A-F31A-C19B-0ABE-AAFFAE2F1C6B">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>15A6AE0F-CEE4-BDF8-701C-59DADE26C4E0</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>3B611F64-1455-5EB6-E97B-0ABB3CF52A16</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36E52471-1368-1DBE-DCC2-940FD859BFA8" referredColumn="20F55655-0C20-1CD0-E8EC-78C2C41A4D18"/>
+</associations>
+</Column>
+<Column name="VIDEO_id" id="B94D5922-F419-639B-4416-ECF1307880FB">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>A9EF1183-0920-523C-D896-07AE9C54D491</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>AF92DEC0-335C-A6F7-3F6A-00BE83CB5443</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="891ABEE3-6363-482D-CB77-E2B952D861F1" referredColumn="2B52650E-090B-2A40-3CFB-22AF58F2F40C"/>
+</associations>
+</Column>
+<Column name="VIDEO_USUARIO_id" id="84D5D431-91E8-CC68-F157-0965A1A0C898">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>DCF687C4-992A-F332-D705-04F248EF6E10</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>DDA39CE8-CC7C-3D92-E8F3-FD9C7A6D5A10</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="891ABEE3-6363-482D-CB77-E2B952D861F1" referredColumn="1B8D8407-0F61-B730-CEAF-42B51C020530"/>
+</associations>
+</Column>
+<Column name="COMENTARIO_VIDEO_id" id="6E75D165-1858-6789-A2C2-9E4E74927E5D">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>089429D0-7DE9-9139-81A5-88A03C0298F7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>2579DD72-D70A-A54E-BDF3-27554686E4B9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36E52471-1368-1DBE-DCC2-940FD859BFA8" referredColumn="B94D5922-F419-639B-4416-ECF1307880FB"/>
+</associations>
+</Column>
+<Column name="COMENTARIO_VIDEO_USUARIO_id" id="BE52D259-6220-0B07-AFD5-C3F2FFE6070E">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>A08B4281-D112-89D8-2CCB-46CB3AB016F2</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>D4FFB4B0-FAC0-7D82-F048-D49DD6D3019B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36E52471-1368-1DBE-DCC2-940FD859BFA8" referredColumn="84D5D431-91E8-CC68-F157-0965A1A0C898"/>
+</associations>
+</Column>
+<Column name="COMENTARIO_id_comentario" id="D8C4E305-47C7-9B0C-C381-856F0F19B2DA">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>9853B605-1603-FB03-505B-9331F8F60195</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>799ABF2E-B11C-C881-73A7-ECFB7885D730</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36E52471-1368-1DBE-DCC2-940FD859BFA8" referredColumn="47B92FA3-99FF-DF0E-2B7A-CD3D501389A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51AFC133-7FF0-D272-8DF3-A5E89AB56727" name="COMENTARIO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>22514540-C352-3A6C-6E23-4927A3D9EDEA</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>55CBBD26-E9AE-2D55-8FAC-37E8E09A426D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20F55655-0C20-1CD0-E8EC-78C2C41A4D18"/>
+<colUsage columnID="B94D5922-F419-639B-4416-ECF1307880FB"/>
+<colUsage columnID="84D5D431-91E8-CC68-F157-0965A1A0C898"/>
+<colUsage columnID="47B92FA3-99FF-DF0E-2B7A-CD3D501389A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3361B031-B11F-85D2-C917-6D243A2DDEAF" name="COMENTARIO_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>B9E7B627-AEAA-1B9A-0539-B70B5D2F5C9E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20F55655-0C20-1CD0-E8EC-78C2C41A4D18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67D188EC-3954-D6A1-3726-9AB87F972A7A" name="COMENTARIO_COMENTARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>C4DCA3DD-B488-200F-7BB0-BD2E6F581EC1</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E960997A-F31A-C19B-0ABE-AAFFAE2F1C6B"/>
+<colUsage columnID="6E75D165-1858-6789-A2C2-9E4E74927E5D"/>
+<colUsage columnID="BE52D259-6220-0B07-AFD5-C3F2FFE6070E"/>
+<colUsage columnID="D8C4E305-47C7-9B0C-C381-856F0F19B2DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30E9926E-205A-502A-425E-352F318F6E43" name="COMENTARIO_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>A3A76A10-4233-D702-1D84-DFA63BEE9A14</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94D5922-F419-639B-4416-ECF1307880FB"/>
+<colUsage columnID="84D5D431-91E8-CC68-F157-0965A1A0C898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

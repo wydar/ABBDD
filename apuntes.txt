@@ -98,3 +98,8 @@ cuando se inserta una fila se crea un ROWID y ese ya no cambia, solo cuando se e
 INDICES
 cuando creamos una clave primaria o una restriccion unique oracle crea un indice automaticamente.
 tambien podemos crear un indice sobre una funcion
+
+------------------------------------------------------- PL/SQL -------------------------------------------------------------------------------------------
+
+database link: sirve para indicar que nuestra BBDD se conecte a otra BBDD
+para luego acceder a los datos de una tabla de la otra BBDD seria select * from nombre_tabla@nombre_database_link

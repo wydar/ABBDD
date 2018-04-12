@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RMDeletedMap class="oracle.dbtools.crest.model.xtdmapping.RMDeletedMap">
+<mappings itemClass="oracle.dbtools.crest.model.xtdmapping.XtdMapping">
+<delm id="99C9DE44-54F798F436F6F3AECEAF-82E4F5E0DCCC" delID="F3AECEAF-149B-A343-BAC5-82E4F5E0DCCC" inhType="3" oDP="861A7D88-C6CA-1D89-B571-17CB29BB5B38" oID="99C9DE44-DF0E-4281-E98A-54F798F436F6" oType="3" rSEnt="CDF78BA6-3107-E0B8-3EFE-4C414736FB50" rTEnt="4A809F54-F213-172D-35D4-3FEBCA76FCBB" tDP="D9E5A5A7-964B-3F39-639E-6B219DA23A33" tID="F3AECEAF-149B-A343-BAC5-82E4F5E0DCCC" tType="8">
+</delm>
+</mappings>
+</RMDeletedMap>

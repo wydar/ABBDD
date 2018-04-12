@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BBC131CE-8135-6CFB-F9C2-494BA957D139" containerWithKeyObject="1FD47646-327D-D915-886F-A2C20B1B2C21" localFKIndex="1898BDAB-1A05-4B71-3478-645671EB689F" name="opcionesv1">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>EF25D94E-A366-C2FC-098A-88627F216B79</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>C38A9089-DA29-0F0F-A303-E909995CBF71</importedID>
+<referredTableLongName>OPCIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E6DCD2EA-30A7-68ED-7BEB-C01531A2C042</referredTableID>
+<keyObject>C9A2388A-7796-E507-BD15-98261CFA0E41</keyObject>
+<referredKeyID>C9A2388A-7796-E507-BD15-98261CFA0E41</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

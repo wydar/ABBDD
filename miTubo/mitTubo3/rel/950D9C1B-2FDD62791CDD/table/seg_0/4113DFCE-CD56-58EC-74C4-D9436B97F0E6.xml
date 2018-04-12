@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4113DFCE-CD56-58EC-74C4-D9436B97F0E6" name="ORDEN_VIDEO">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>6A431794-7CB7-A38C-DD38-446DDC9ECF11</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>45E95698-5345-9E23-B058-339C8167672C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Video" id="C33539CA-EA51-B2E7-A0D5-615EECC8A707">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>E3B93AA1-0CD1-3BA9-6A01-8C74AE916240</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>053CD89E-FAB6-04EF-EA06-EFAB527DD68E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lista_reproducción" id="7DA0762E-1B23-2293-A6AB-55CA2EC1841C">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>9F1FDB65-4D54-09A3-97B5-1918DF8C7663</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>688107C6-016E-3BA6-659D-C21E5218C687</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posición" id="852A6476-FAB3-DD21-B9A3-57931DB39B46">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>774BFB54-5060-8CE5-6945-E323DA7A06F7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>8E516B07-5275-63FA-766B-857AFC6837E4</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDEO_id" id="88DEA100-435A-6830-065E-770FFE11F4F7">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>CD6092B4-5E03-9313-BBD1-F65E9E67FF6C</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>8F30BEB1-1597-9328-8220-3CE7E61674A1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC7C6DE0-66E8-EA5F-0AD2-DD29A47D308B" referredColumn="2B52650E-090B-2A40-3CFB-22AF58F2F40C"/>
+</associations>
+</Column>
+<Column name="VIDEO_USUARIO_id" id="580A7E99-C478-E3B5-EF47-E07CE9181370">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>73396B5D-16CD-FEC0-D019-8906E964AD1E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>FD0B1DFB-35D0-4AD5-19F5-4108D03FB405</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC7C6DE0-66E8-EA5F-0AD2-DD29A47D308B" referredColumn="1B8D8407-0F61-B730-CEAF-42B51C020530"/>
+</associations>
+</Column>
+<Column name="LISTAS_DE_REPRODUCCION_id" id="707E4616-970B-1683-C878-13F53FC4B555">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>D9F14E5C-585F-70E6-2F59-1C3792FDF327</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>7BD905A1-9450-8048-8046-91EFED5F629A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D1B82DA-26F0-4146-8AB5-35BF97DE891C" referredColumn="3F881FB6-B049-EC32-3BC0-61F9AAC98023"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4907DB0-5CD2-4491-675A-0C7A5DB0C4FB" name="ORDEN_VIDEO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>C890AE90-EAEB-0ACD-7206-9CD26C410B68</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>4DDDBAE8-8819-0CEA-D8F2-5F69761F4192</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88DEA100-435A-6830-065E-770FFE11F4F7"/>
+<colUsage columnID="580A7E99-C478-E3B5-EF47-E07CE9181370"/>
+<colUsage columnID="707E4616-970B-1683-C878-13F53FC4B555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="185256FD-45DA-FC14-0B03-CAE9DF679BD4" name="ORDEN_VIDEO_LISTAS_DE_REPRODUCCION_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>347FB8CD-D0B8-53C6-E34C-47EE95F4E272</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707E4616-970B-1683-C878-13F53FC4B555"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DF60AB2-2BFF-5DB7-54D6-CEB1757E2BD1" name="ORDEN_VIDEO_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>DBA33A99-34E9-3689-C9E6-2BEF573487B6</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88DEA100-435A-6830-065E-770FFE11F4F7"/>
+<colUsage columnID="580A7E99-C478-E3B5-EF47-E07CE9181370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

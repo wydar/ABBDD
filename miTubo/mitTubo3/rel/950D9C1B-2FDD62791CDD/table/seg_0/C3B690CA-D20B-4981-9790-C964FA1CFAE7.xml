@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3B690CA-D20B-4981-9790-C964FA1CFAE7" name="TARIFAS">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>068F5005-D97E-4E2A-C747-74444916DCAE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>C249AC17-1892-40F2-B501-49C515F3E1E7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ANUNCIOS_EMPRESA_id" id="32303C73-55A1-0C8F-668B-58ADE72EE4A9">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>A42BDEE4-05D9-797F-E878-59309B48F2EB</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>FF66A3FE-0FF3-5A49-9148-4788E6C16A09</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FD92E57-1715-FDE6-B3B6-2042E64403D0" referredColumn="0F85FC95-9C47-D13B-2472-B799683C3448"/>
+</associations>
+</Column>
+<Column name="EMPRESA_id" id="499A23A6-738F-CAB2-0F61-1DA922923426">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>2202A90B-676C-5D48-9BFF-DBD3CD3EF0FE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>4C0CAFA6-3181-D5F1-255D-A1B96CE15D0B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BF3CE0E-6896-C82F-A6E0-276DFC5B9AF2" referredColumn="0C5CDD9A-977B-5B02-3467-B370EBE264C8"/>
+</associations>
+</Column>
+<Column name="id_tarifa" id="662F44CD-9F1C-F8A7-A74E-8F54745DA783">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>FF4B9117-E9B7-B3DE-303E-94EE98D02E64</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>9BB4010B-F800-CBCC-13ED-67B7392382DD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6E5D68D-81EE-CAFF-5B02-6FA9768FCA4F" name="TARIFAS_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>BCD4F039-9E17-5589-FB67-47232DFAEED4</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>80F028AF-703D-2791-9852-9A49EEE549CC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32303C73-55A1-0C8F-668B-58ADE72EE4A9"/>
+<colUsage columnID="499A23A6-738F-CAB2-0F61-1DA922923426"/>
+<colUsage columnID="662F44CD-9F1C-F8A7-A74E-8F54745DA783"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55A5F76C-39C7-DBC6-C860-E371593126B2" name="TARIFAS_EMPRESA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>E5AC7FD1-8772-B7F9-3C1B-5DE84CBBA4A9</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="499A23A6-738F-CAB2-0F61-1DA922923426"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFE6EB72-CE32-0986-549D-B63757336E09" name="TARIFAS_ANUNCIOS_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>3C7E0746-4D0E-2E1C-40B1-C85405FAE05E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32303C73-55A1-0C8F-668B-58ADE72EE4A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

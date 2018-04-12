@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mitTubo3" id="EA25E806-C3C0-8E27-8CDD-A97D0C0F35A4" version="3.5">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:31:44 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EA25E806-C3C0-8E27-8CDD-A97D0C0F35A4</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="944B428B-B2F8-0895-DC41-DBC4855EF1CA">
+<designStoragePath>C:\Users\alumnos\Desktop\Administración de Bases de Datos\mitubo\miTubo\miTubo</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BB6B0B7B-5725-8593-F917-716E3639D335">
+<designStoragePath>C:\Users\PC\Desktop\miTubo2\mitubo2</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

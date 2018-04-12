@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="videos de un canal" directorySegmentName="seg_0" id="99C9DE44-DF0E-4281-E98A-54F798F436F6">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>2DAC64A7-1ED8-CBDF-9A16-E79B1151CF4C</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<sourcePk>FA0C52B6-4D3F-4972-B537-984376228029</sourcePk>
+<targetPk>68E64690-8CDD-A702-ADB2-28CF18A03951</targetPk>
+<identifying>false</identifying>
+<nameOnSource>puede tener</nameOnSource>
+<nameOnTarget>pertenece a </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CDF78BA6-3107-E0B8-3EFE-4C414736FB50</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4A809F54-F213-172D-35D4-3FEBCA76FCBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

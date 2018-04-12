@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79550C9A-B361-B0C5-04C5-2E9753FBE313" name="ANUNCIOS">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>231AEA30-EAC3-FAB5-DCA2-A3C619CD70F7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7271F370-A613-5E6E-7DC5-05D8CB636FE8">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>F85060AD-01EE-2AAD-A8AA-DFFF13223F78</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FDB6E94-0459-3389-66F3-0BB228E7CE84" referredColumn="52A66A37-4A3E-F9A4-2B4A-403EFE660F6C"/>
+</associations>
+</Column>
+<Column name="idioma" id="87DB1C1E-4A1E-BB8B-0E99-FAA1482C6EE0">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>4F1C3697-B11A-29D6-A25C-0D55895EC543</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="1F0CF82D-D293-54A3-43B9-246386CC407C">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>91E3AEEC-CAFA-F03A-DF1B-E2445566DD64</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA_id" id="209DD5E0-6962-55AA-642C-C4A2110A7F05">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>78C74681-5762-DEB3-7D2F-EC38226B63A7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6D5E467-1247-9095-01FA-796EE4358CA8" referredColumn="B2D29636-4CA1-1FD7-7919-D46414321F33"/>
+</associations>
+</Column>
+<Column name="id3" id="6BFE58D1-9065-A277-B8EC-1A4060BA4835">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>6F35D4CA-EAD7-215D-983A-6A141C73F983</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FDB6E94-0459-3389-66F3-0BB228E7CE84" referredColumn="393F4F9A-ADFE-3419-C79A-D6B44EF0F665"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACF21180-AEE1-E49F-7EEB-AB50C2C6A512" name="ANUNCIOS_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>68E64690-8CDD-A702-ADB2-28CF18A03951</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7271F370-A613-5E6E-7DC5-05D8CB636FE8"/>
+<colUsage columnID="6BFE58D1-9065-A277-B8EC-1A4060BA4835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CB7E288-9911-29B1-DEF0-654271D0DFBA" name="ANUNCIOS_PKv1">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>819AA82C-DDD6-AD9D-BA72-88406E83D58E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="209DD5E0-6962-55AA-642C-C4A2110A7F05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5DB954A-CF2F-5494-B30C-34C24C117758" name="ANUNCIOS_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>54D03B7D-A5DB-7536-549E-D47DBA6CBDCE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7271F370-A613-5E6E-7DC5-05D8CB636FE8"/>
+<colUsage columnID="6BFE58D1-9065-A277-B8EC-1A4060BA4835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DF785EA-09C4-B51F-1427-464AC93E65E8" name="ANUNCIOS_EMPRESA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>91338E4A-A702-2398-5608-8AF8FA782ECA</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="209DD5E0-6962-55AA-642C-C4A2110A7F05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

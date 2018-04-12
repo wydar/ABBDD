@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="861A7D88-C6CA-1D89-B571-17CB29BB5B38" mainViewID="17760D36-D468-8A9D-4F14-1D5E61B48440">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:31:44 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

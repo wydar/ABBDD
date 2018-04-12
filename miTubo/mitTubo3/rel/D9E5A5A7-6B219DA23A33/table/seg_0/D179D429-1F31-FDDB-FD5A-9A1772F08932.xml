@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D179D429-1F31-FDDB-FD5A-9A1772F08932" name="ORDEN_VIDEO">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>6A431794-7CB7-A38C-DD38-446DDC9ECF11</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Video" id="76B9ED43-90B8-7C68-01EE-01608E98C975">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<comment>Como un video puede estar varias veces en una misma lista de reporduccion no puede ser clave primaria por lo que orden no puede ser entidad debil de video</comment>
+<generatorID>E3B93AA1-0CD1-3BA9-6A01-8C74AE916240</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lista_rep" id="77BD9F5B-EC74-6D20-DD70-F47276FCAD55">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>9F1FDB65-4D54-09A3-97B5-1918DF8C7663</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Posición" id="93C1C3A3-2109-B64E-67BC-8555708D072F">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>774BFB54-5060-8CE5-6945-E323DA7A06F7</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDEO_id" id="3B647DE2-9BB0-7521-7373-F36CD8C86EFA">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>CD6092B4-5E03-9313-BBD1-F65E9E67FF6C</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84FBBF17-FA46-B6FB-23CF-5F57067A59FE" referredColumn="52A66A37-4A3E-F9A4-2B4A-403EFE660F6C"/>
+</associations>
+</Column>
+<Column name="VIDEO_USUARIO_id" id="911311D9-1E4B-8F77-A3DB-62DD21E7E35F">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>73396B5D-16CD-FEC0-D019-8906E964AD1E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84FBBF17-FA46-B6FB-23CF-5F57067A59FE" referredColumn="393F4F9A-ADFE-3419-C79A-D6B44EF0F665"/>
+</associations>
+</Column>
+<Column name="LISTAS_DE_REP_id" id="30A673DF-6463-9B88-8C02-6B46AB8225BC">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>D9F14E5C-585F-70E6-2F59-1C3792FDF327</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="422610AA-E9E2-1A1D-3EBD-9EB0CDD45408" referredColumn="73539A41-3915-7EAC-FFE6-E0C7B97A8111"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="492A1B2A-5CBF-B374-FFB1-F8E389C9AF00" name="ORDEN_VIDEO_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>C890AE90-EAEB-0ACD-7206-9CD26C410B68</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A673DF-6463-9B88-8C02-6B46AB8225BC"/>
+<colUsage columnID="93C1C3A3-2109-B64E-67BC-8555708D072F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF3D91AA-69E1-3382-E461-7195DD7E356D" name="ORDEN_VIDEO_LISTAS_DE_REP_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>347FB8CD-D0B8-53C6-E34C-47EE95F4E272</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A673DF-6463-9B88-8C02-6B46AB8225BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8C22D74-1FC8-55BA-EFCD-72F9BBA11554" name="ORDEN_VIDEO_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>DBA33A99-34E9-3689-C9E6-2BEF573487B6</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B647DE2-9BB0-7521-7373-F36CD8C86EFA"/>
+<colUsage columnID="911311D9-1E4B-8F77-A3DB-62DD21E7E35F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

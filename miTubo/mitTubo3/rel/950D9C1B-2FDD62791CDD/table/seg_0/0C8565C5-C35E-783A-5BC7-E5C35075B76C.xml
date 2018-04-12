@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C8565C5-C35E-783A-5BC7-E5C35075B76C" name="PERFIL">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>0A611A52-9270-E71D-E54C-B694C56081B9</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>147CAAB5-1B79-D7C2-C1EA-B9DA7C98DA0A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CCBE8217-BDE1-6456-9BA8-1B678E411990">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>EBA7E249-95E4-EE9C-D793-47200F791001</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>366600FE-81AC-A8C0-2FBE-796099EE8E88</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pais" id="FE9634D4-DD0B-1802-EF26-8321B8A17419">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>38DBF9D2-CC76-46AD-E6F8-2F3AF31672A2</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>3EA4D7BD-592E-D684-DE4D-A9B8E747B192</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Idioma" id="653B49B6-04DB-B333-D496-59EB6C8E32E5">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>E62ACB2E-D417-0589-6AA6-1CF5887F226C</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>4D6B8258-8251-51AC-BEEC-ECE1CDE767A7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF7DCDD7-EEE3-E0E0-F97F-437CAA00FE66" name="PERFIL_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>346503B0-D0B8-FBAB-3E2C-968828522B71</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>CCC9859D-4CB3-FC72-4394-13DC6290A6F4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCBE8217-BDE1-6456-9BA8-1B678E411990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42701BBD-AA49-DAAC-B7C4-EBC13E7208CB" name="dirigido_a">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>1DE2BA0B-F5E7-52DF-F81B-6171C873A9FE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D1B82DA-26F0-4146-8AB5-35BF97DE891C" containerWithKeyObject="4113DFCE-CD56-58EC-74C4-D9436B97F0E6" localFKIndex="185256FD-45DA-FC14-0B03-CAE9DF679BD4" name="ORDEN_VIDEO_LISTAS_DE_REPRODUCCION_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>347FB8CD-D0B8-53C6-E34C-47EE95F4E272</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>9489C1A1-99FC-5CAC-DA3A-0CD28975DAF6</importedID>
+<referredTableLongName>LISTAS_DE_REPRODUCCION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>387F7B94-027E-975A-4BB9-6121D524455D</referredTableID>
+<keyObject>5A184FDE-43AB-D051-5C03-E06883356093</keyObject>
+<referredKeyID>5A184FDE-43AB-D051-5C03-E06883356093</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

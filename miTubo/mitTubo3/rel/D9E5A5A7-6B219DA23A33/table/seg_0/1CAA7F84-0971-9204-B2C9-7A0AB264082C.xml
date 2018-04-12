@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CAA7F84-0971-9204-B2C9-7A0AB264082C" name="TARIFAS">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>068F5005-D97E-4E2A-C747-74444916DCAE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ANUNCIOS_EMPRESA_id" id="857529A5-90E8-A591-211D-7DC68E7C2130">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>A42BDEE4-05D9-797F-E878-59309B48F2EB</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1BBBCB4-E1D5-BC6A-3D50-BFE97D2074C1" referredColumn="209DD5E0-6962-55AA-642C-C4A2110A7F05"/>
+</associations>
+</Column>
+<Column name="EMPRESA_id" id="4112E8C0-1DC0-03C0-52E5-97AE607D07AF">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>2202A90B-676C-5D48-9BFF-DBD3CD3EF0FE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54EAED53-3881-9696-ABED-225AD5470F32" referredColumn="B2D29636-4CA1-1FD7-7919-D46414321F33"/>
+</associations>
+</Column>
+<Column name="id_tarifa" id="59D832C0-16DC-875E-56C6-500427BC3AC0">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>FF4B9117-E9B7-B3DE-303E-94EE98D02E64</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="509BE8D3-48A4-137D-45CE-EBF47B3A2888" name="TARIFAS_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>BCD4F039-9E17-5589-FB67-47232DFAEED4</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="857529A5-90E8-A591-211D-7DC68E7C2130"/>
+<colUsage columnID="4112E8C0-1DC0-03C0-52E5-97AE607D07AF"/>
+<colUsage columnID="59D832C0-16DC-875E-56C6-500427BC3AC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EFE92B1-E6E6-1F88-4732-CBA1F4CA981D" name="TARIFAS_ANUNCIOS_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>3C7E0746-4D0E-2E1C-40B1-C85405FAE05E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="857529A5-90E8-A591-211D-7DC68E7C2130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1C1F308-623A-7E7C-CF8B-AB5BF3FBF69E" name="TARIFAS_EMPRESA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:33:40 UTC</createdTime>
+<generatorID>E5AC7FD1-8772-B7F9-3C1B-5DE84CBBA4A9</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4112E8C0-1DC0-03C0-52E5-97AE607D07AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orden a lista" directorySegmentName="seg_0" id="347FB8CD-D0B8-53C6-E34C-47EE95F4E272">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>549B8AB6-1D14-DA15-86F6-6D179C7C7FD2</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<sourcePk>445FBE48-260F-597A-5F86-58EA82ED729F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>84CABAF7-106A-1743-4334-2E60338929A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A431794-7CB7-A38C-DD38-446DDC9ECF11</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3357DC13-BE1A-5DA4-7D12-33FD2B43317F" name="EMPRESA">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>0EADDCB1-2413-9C02-FAFD-D09FB981CB6E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>0AB4A0D0-EDFA-8DC8-5BBF-E68AB0B4465A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0C5CDD9A-977B-5B02-3467-B370EBE264C8">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>324278D7-4043-43F5-F722-D32E444C4ED3</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>C3A2DB82-13C4-B1F4-EE9B-1B8CA9424096</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="613459B0-BFF9-588D-AC25-CF4483486C8F" referredColumn="BCA95D37-E77D-7A6B-2EF5-593C51690496"/>
+</associations>
+</Column>
+<Column name="ID_empresa" id="7B59B02A-6F78-24C9-ED3C-56455E0B7EF3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>CCE656C5-24E3-7BE5-C6FE-30AFD1E4FBEB</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>20E28449-3198-64DC-DFDF-9BBDE5423836</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4165D0D-CC81-2B11-8026-10C9E055E463" name="EMPRESA_PK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>20738573-3ACC-EEA3-537B-34A008769072</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>AB000002-9F7B-5C9D-7386-B3F6C9DE28F9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C5CDD9A-977B-5B02-3467-B370EBE264C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26CE67A1-7ED5-CE98-8648-7C2B17CDDBD2" name="EMPRESA_USUARIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>83731F33-F380-4CA4-D614-798D72A4F04E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C5CDD9A-977B-5B02-3467-B370EBE264C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

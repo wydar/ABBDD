@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F8981E21-4FE3-4A2B-D504-A80847D7AB5B">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:31:45 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

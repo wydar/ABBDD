@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FBA35ACD-B2E9-6715-54AD-2BFF14D7E2F1" containerWithKeyObject="BC51F654-35A7-DFF1-22B9-98A61EC7C5C3" localFKIndex="BA958CB4-1A8E-DF8A-1C80-E91A6429FD37" name="FK_ASS_78">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>1DE2BA0B-F5E7-52DF-F81B-6171C873A9FE</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>9D11AF19-D921-3520-4E2D-CD3CE57A83FC</importedID>
+<referredTableLongName>ANUNCIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E519AEFE-BF7D-C95D-7D42-9E0F21602BC4</referredTableID>
+<keyObject>DDD2508F-3D1F-715E-3C46-79DDF4D04791</keyObject>
+<referredKeyID>DDD2508F-3D1F-715E-3C46-79DDF4D04791</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id,id3</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

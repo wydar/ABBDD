@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FD92E57-1715-FDE6-B3B6-2042E64403D0" containerWithKeyObject="C3B690CA-D20B-4981-9790-C964FA1CFAE7" localFKIndex="DFE6EB72-CE32-0986-549D-B63757336E09" name="TARIFAS_ANUNCIOS_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<generatorID>3C7E0746-4D0E-2E1C-40B1-C85405FAE05E</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>D856C437-2D73-2360-CC82-B0B5B8128420</importedID>
+<referredTableLongName>ANUNCIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E519AEFE-BF7D-C95D-7D42-9E0F21602BC4</referredTableID>
+<keyObject>6C4E8728-4F45-7356-2558-02C073C8BC35</keyObject>
+<referredKeyID>6C4E8728-4F45-7356-2558-02C073C8BC35</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EMPRESA_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
