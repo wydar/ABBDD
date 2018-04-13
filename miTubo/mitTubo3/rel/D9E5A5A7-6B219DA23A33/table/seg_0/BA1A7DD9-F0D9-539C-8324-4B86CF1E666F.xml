@@ -76,7 +76,7 @@
 <colAssociation fkAssociation="DA3DB3BD-DB0D-7E9B-3D0A-D58484DB0881" referredColumn="52A66A37-4A3E-F9A4-2B4A-403EFE660F6C"/>
 </associations>
 </Column>
-<Column name="DENUNCIA_USUARIO_id" id="FDF5F81F-3DA8-CB1A-CB55-FFEC211216D6">
+<Column name="DENUNCIA_USUARIO_id_user" id="FDF5F81F-3DA8-CB1A-CB55-FFEC211216D6">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-09 12:05:39 UTC</createdTime>
 <generatorID>958761F0-C8FE-1A09-AA0A-41F9DDE9EBFF</generatorID>
@@ -92,7 +92,7 @@
 <colAssociation fkAssociation="8AC052C3-AB5F-775A-C290-BB352FB90650" referredColumn="F3BEAECC-F4C6-68F4-2799-36F3F6193508"/>
 </associations>
 </Column>
-<Column name="DENUNCIA_VIDEO_id" id="C6BE46E5-9944-C302-BF9C-727C76A54173">
+<Column name="DENUNCIA_VIDEO_id_video" id="C6BE46E5-9944-C302-BF9C-727C76A54173">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-09 12:05:39 UTC</createdTime>
 <generatorID>6F7D8813-B5D8-B70B-5E83-49F9887B37D6</generatorID>
@@ -108,7 +108,7 @@
 <colAssociation fkAssociation="8AC052C3-AB5F-775A-C290-BB352FB90650" referredColumn="7C95C9D5-A888-E0BA-C77B-3993642BA78C"/>
 </associations>
 </Column>
-<Column name="COMENTARIO_USUARIO_id" id="C2D88EBC-9CE0-8AC8-03B0-9A792D85D803">
+<Column name="COMENTARIO_USUARIO_id_user" id="C2D88EBC-9CE0-8AC8-03B0-9A792D85D803">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-09 12:05:39 UTC</createdTime>
 <generatorID>527EF30A-0309-42D5-9992-742B0319A0AF</generatorID>
@@ -124,7 +124,7 @@
 <colAssociation fkAssociation="282D9A9D-6763-D506-D2E7-26ADF6B7D81D" referredColumn="C0DA706C-6267-9100-ABD1-F5FF90EB462F"/>
 </associations>
 </Column>
-<Column name="COMENTARIO_VIDEO_id" id="0EFB79E4-2048-A958-EF1B-9D6C929304F9">
+<Column name="COMENTARIO_VIDEO_id_video" id="0EFB79E4-2048-A958-EF1B-9D6C929304F9">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-09 12:05:39 UTC</createdTime>
 <generatorID>978A0329-0C2C-FC85-3EFC-DCA59E62209E</generatorID>

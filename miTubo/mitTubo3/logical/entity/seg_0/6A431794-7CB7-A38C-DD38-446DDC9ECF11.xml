@@ -46,7 +46,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_LREP" id="D9F14E5C-585F-70E6-2F59-1C3792FDF327">
+<Attribute name="id_LDR" id="D9F14E5C-585F-70E6-2F59-1C3792FDF327">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:32:42 UTC</createdTime>
 <generatorID>347FB8CD-D0B8-53C6-E34C-47EE95F4E272</generatorID>
@@ -68,9 +68,10 @@
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:32:42 UTC</createdTime>
 <ownerDesignName>mitTubo3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>B47861A4-ECAB-EDF0-192E-86B2C59FB8B5</importedID>
 <engineerTo>
-<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="false"/>
 <item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
 </engineerTo>
 <pk>true</pk>

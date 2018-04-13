@@ -73,7 +73,7 @@
 <colAssociation fkAssociation="84FBBF17-FA46-B6FB-23CF-5F57067A59FE" referredColumn="393F4F9A-ADFE-3419-C79A-D6B44EF0F665"/>
 </associations>
 </Column>
-<Column name="LISTAS_DE_REP_id" id="30A673DF-6463-9B88-8C02-6B46AB8225BC">
+<Column name="LDR_id_LDR" id="30A673DF-6463-9B88-8C02-6B46AB8225BC">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>D9F14E5C-585F-70E6-2F59-1C3792FDF327</generatorID>
@@ -103,7 +103,7 @@
 <colUsage columnID="93C1C3A3-2109-B64E-67BC-8555708D072F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FF3D91AA-69E1-3382-E461-7195DD7E356D" name="ORDEN_VIDEO_LISTAS_DE_REP_FK">
+<ind_PK_UK id="FF3D91AA-69E1-3382-E461-7195DD7E356D" name="ORDEN_VIDEO_LDR_FK">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>347FB8CD-D0B8-53C6-E34C-47EE95F4E272</generatorID>

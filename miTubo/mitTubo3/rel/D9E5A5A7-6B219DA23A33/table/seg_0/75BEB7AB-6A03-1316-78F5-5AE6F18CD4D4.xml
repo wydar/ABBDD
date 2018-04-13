@@ -160,7 +160,7 @@
 <colAssociation fkAssociation="1CA66942-AFD5-2CE5-898F-644DF2102D7F" referredColumn="73032142-8EF8-D138-D67D-52718048EE5A"/>
 </associations>
 </Column>
-<Column name="CANAL_id" id="66DDF553-CAEA-55D4-8D81-D4CF1DE0468C">
+<Column name="CANAL_id_canal1" id="66DDF553-CAEA-55D4-8D81-D4CF1DE0468C">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>5CDD4A2F-BBEC-88A8-AD67-021269650656</generatorID>
@@ -203,7 +203,7 @@
 <colAssociation fkAssociation="A4E315FB-6DE7-2CFD-01BC-6ECB89F97C4D" referredColumn="B50E912E-6323-901B-4B6A-26013093E3C5"/>
 </associations>
 </Column>
-<Column name="ORDEN_VIDEO_LISTAS_DE_REP_id" id="2145DECD-B28A-73E5-1FB4-485386EEF953">
+<Column name="ORDEN_VIDEO_LDR_id_LDR" id="2145DECD-B28A-73E5-1FB4-485386EEF953">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-09 12:05:39 UTC</createdTime>
 <generatorID>07210A86-6DCD-769B-52E4-8AB73168BF36</generatorID>
@@ -216,7 +216,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="F468CF16-9C3D-3AD7-BCE3-2B115183F94B" referredColumn="30A673DF-6463-9B88-8C02-6B46AB8225BC"/>
+<colAssociation fkAssociation="6EF72F93-D747-2C95-40C1-81522AF7B514" referredColumn="30A673DF-6463-9B88-8C02-6B46AB8225BC"/>
 </associations>
 </Column>
 <Column name="ORDEN_VIDEO_Posición" id="26BAD049-DF86-65D3-3F58-78DF3539D24C">
@@ -231,9 +231,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="F468CF16-9C3D-3AD7-BCE3-2B115183F94B" referredColumn="93C1C3A3-2109-B64E-67BC-8555708D072F"/>
-</associations>
 </Column>
 <Column name="USUARIO_id_user" id="CDC8AC81-F4FD-00FE-74D8-37E7229C3B18">
 <createdBy>PC</createdBy>
@@ -250,6 +247,48 @@
 <colAssociation fkAssociation="371CF5CA-F5C9-DB2B-2B58-6216AD0B303D" referredColumn="73032142-8EF8-D138-D67D-52718048EE5A"/>
 </associations>
 </Column>
+<Column name="id_propietario" id="0A70630E-4C39-5E42-6151-C930AACEABDD">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-13 15:30:11 UTC</createdTime>
+<generatorID>09F1DE17-B4F1-095F-0D7E-C2AAF1921163</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDEN_VIDEO_Posición1" id="BD590D7A-B284-B385-4827-9182959C9C6C">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-13 15:30:11 UTC</createdTime>
+<generatorID>D429AF53-42AF-4E30-1BB4-429A666FA4AD</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EF72F93-D747-2C95-40C1-81522AF7B514" referredColumn="93C1C3A3-2109-B64E-67BC-8555708D072F"/>
+</associations>
+</Column>
+<Column name="USUARIO_id_user1" id="E5C81AD7-C0D7-D4E6-F3EE-61423AB7765D">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-13 15:30:11 UTC</createdTime>
+<generatorID>425B1FB4-73C2-ACAB-5A16-64ADD01C31AA</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="085B2B94-0039-E5A2-C9BD-8F62877BC6FC" referredColumn="73032142-8EF8-D138-D67D-52718048EE5A"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D62F01E6-7575-2BED-6903-16EE8052DE31" name="VIDEO_PK">
@@ -262,7 +301,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="52A66A37-4A3E-F9A4-2B4A-403EFE660F6C"/>
-<colUsage columnID="CDC8AC81-F4FD-00FE-74D8-37E7229C3B18"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="AB1A2DDA-B74F-08EA-73E2-2455D6E164CC" name="VIDEO__IDX">
@@ -298,18 +336,6 @@
 <colUsage columnID="66DDF553-CAEA-55D4-8D81-D4CF1DE0468C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0AC239F2-4064-E61E-DD1D-354EADA26DBA" name="VIDEO_ORDEN_VIDEO_FK">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-09 12:05:39 UTC</createdTime>
-<generatorID>889C1FB7-79D4-C19B-BD09-8D6C077F302B</generatorID>
-<ownerDesignName>mitTubo3</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2145DECD-B28A-73E5-1FB4-485386EEF953"/>
-<colUsage columnID="26BAD049-DF86-65D3-3F58-78DF3539D24C"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="D9699A8D-5CDD-ECAC-553F-9A504A8D0790" name="VIDEO_USUARIO_FKv2">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-09 12:05:39 UTC</createdTime>
@@ -321,7 +347,7 @@
 <colUsage columnID="CDC8AC81-F4FD-00FE-74D8-37E7229C3B18"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="01D2CF43-231D-DEF4-3E33-EBEEA22ECFE0" name="VIDEO_CANAL_FKv2">
+<ind_PK_UK id="01D2CF43-231D-DEF4-3E33-EBEEA22ECFE0" name="VIDEO_CANAL_FKv1">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-09 12:05:39 UTC</createdTime>
 <generatorID>99C9DE44-DF0E-4281-E98A-54F798F436F6</generatorID>
@@ -330,6 +356,29 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E6517F9A-8F94-FA16-B847-CE1342EF0986"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E241F7E-609E-3CE4-C82D-090A86444918" name="VIDEO_USUARIO_FKv3">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-13 15:30:11 UTC</createdTime>
+<generatorID>AF3C0B63-D935-442F-B9EE-B8C0A6B9075D</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5C81AD7-C0D7-D4E6-F3EE-61423AB7765D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D36A101E-F1CA-8CAC-81A8-564B5B753B41" name="VIDEO_ORDEN_VIDEO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-13 16:05:07 UTC</createdTime>
+<generatorID>889C1FB7-79D4-C19B-BD09-8D6C077F302B</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2145DECD-B28A-73E5-1FB4-485386EEF953"/>
+<colUsage columnID="BD590D7A-B284-B385-4827-9182959C9C6C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

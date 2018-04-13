@@ -46,22 +46,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descripcion" id="FC7605E0-BC48-584C-45E5-08989EDBC8DC">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-07 17:32:42 UTC</createdTime>
-<ownerDesignName>mitTubo3</ownerDesignName>
-<importedID>C30DAEEB-B957-B072-41BB-A096DB9FF051</importedID>
-<engineerTo>
-<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
-<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000</dataTypeSize>
-<ownDataTypeParameters>4000,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ambito" id="E9C1B3A5-85C0-34E0-B479-FFF889F90350">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:32:42 UTC</createdTime>
@@ -83,6 +67,36 @@
 <defaultValue>Público</defaultValue>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nº_suscriptores" id="85E4B4D5-DC56-DF19-552B-F50B944972C4">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>9940B184-DD43-C5C4-5052-EF4E1AF8DB26</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="FC7605E0-BC48-584C-45E5-08989EDBC8DC">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-07 17:32:42 UTC</createdTime>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<importedID>C30DAEEB-B957-B072-41BB-A096DB9FF051</importedID>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="imagen" id="CCC9756A-C674-F486-DA7C-68785587C714">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:32:42 UTC</createdTime>
@@ -96,20 +110,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT010</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nº_suscriptores" id="85E4B4D5-DC56-DF19-552B-F50B944972C4">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-07 17:32:42 UTC</createdTime>
-<ownerDesignName>mitTubo3</ownerDesignName>
-<importedID>9940B184-DD43-C5C4-5052-EF4E1AF8DB26</importedID>
-<engineerTo>
-<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
-<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_video" id="D1705111-B2A3-CE58-0863-BBE525561024">

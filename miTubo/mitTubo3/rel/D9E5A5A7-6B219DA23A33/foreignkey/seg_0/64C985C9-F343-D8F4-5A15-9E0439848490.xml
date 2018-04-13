@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4E315FB-6DE7-2CFD-01BC-6ECB89F97C4D" containerWithKeyObject="75BEB7AB-6A03-1316-78F5-5AE6F18CD4D4" localFKIndex="01D2CF43-231D-DEF4-3E33-EBEEA22ECFE0" name="VIDEO_CANAL_FKv1">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="64C985C9-F343-D8F4-5A15-9E0439848490" containerWithKeyObject="BAC3F211-3274-B7D4-261D-2F2EA886BF1F" localFKIndex="AA11B003-178E-BB8E-B6C0-AB88318C0183" name="USUARIO_CANAL_FK">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-09 12:05:39 UTC</createdTime>
-<generatorID>99C9DE44-DF0E-4281-E98A-54F798F436F6</generatorID>
+<createdTime>2018-04-13 16:05:07 UTC</createdTime>
+<generatorID>4E0FED5A-F5E6-7EEE-D6E6-0FDB72F9BCAD</generatorID>
 <ownerDesignName>mitTubo3</ownerDesignName>
 <referredTableLongName>CANAL</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

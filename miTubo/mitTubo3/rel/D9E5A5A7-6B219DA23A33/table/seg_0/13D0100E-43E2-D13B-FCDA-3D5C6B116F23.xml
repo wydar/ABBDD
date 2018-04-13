@@ -56,7 +56,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USUARIO_id" id="8365DF03-FE8E-FE0A-B0F3-EACDAB4965B5">
+<Column name="USUARIO_id_user" id="8365DF03-FE8E-FE0A-B0F3-EACDAB4965B5">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>D6B79215-FDEE-653E-2E0B-254CDB6C36E4</generatorID>
@@ -71,7 +71,7 @@
 <colAssociation fkAssociation="0062AD02-25B3-9793-CDBE-72F5767063C8" referredColumn="73032142-8EF8-D138-D67D-52718048EE5A"/>
 </associations>
 </Column>
-<Column name="VIDEO_id" id="C6D0217D-A035-CEDE-8AA9-88D06D4EF478">
+<Column name="VIDEO_id_video" id="C6D0217D-A035-CEDE-8AA9-88D06D4EF478">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>28EB471C-FF2B-4CB7-CCF4-F5D00B34A0FD</generatorID>
@@ -108,9 +108,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="66398BC1-F87B-71E0-7D22-4E7CE72A2C5B" referredColumn="CDC8AC81-F4FD-00FE-74D8-37E7229C3B18"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -147,7 +144,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C6D0217D-A035-CEDE-8AA9-88D06D4EF478"/>
-<colUsage columnID="4C5D1428-DCDD-4522-C753-C6FAB2382F6B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

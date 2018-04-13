@@ -128,10 +128,10 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E97CC4F2-3EEE-7792-3538-C64AF0E4F0AE" referredColumn="B50E912E-6323-901B-4B6A-26013093E3C5"/>
+<colAssociation fkAssociation="64C985C9-F343-D8F4-5A15-9E0439848490" referredColumn="B50E912E-6323-901B-4B6A-26013093E3C5"/>
 </associations>
 </Column>
-<Column name="PERFIL_id" id="8D10ECAB-05E0-F7BD-0C1C-83B8862F04EB">
+<Column name="PERFIL_id_perf" id="8D10ECAB-05E0-F7BD-0C1C-83B8862F04EB">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>D1D3696B-A622-9430-5540-1DD6F8E2F6BD</generatorID>
@@ -182,9 +182,9 @@
 <colUsage columnID="8D10ECAB-05E0-F7BD-0C1C-83B8862F04EB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="64DE241F-F840-9F35-EF5D-BB5F727FEC19" name="USUARIO_CANAL_FK">
+<ind_PK_UK id="AA11B003-178E-BB8E-B6C0-AB88318C0183" name="USUARIO_CANAL_FK">
 <createdBy>PC</createdBy>
-<createdTime>2018-04-09 12:05:39 UTC</createdTime>
+<createdTime>2018-04-13 16:05:07 UTC</createdTime>
 <generatorID>4E0FED5A-F5E6-7EEE-D6E6-0FDB72F9BCAD</generatorID>
 <ownerDesignName>mitTubo3</ownerDesignName>
 <indexState>Foreign Key</indexState>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84CABAF7-106A-1743-4334-2E60338929A0" name="LISTAS DE REP">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84CABAF7-106A-1743-4334-2E60338929A0" name="LDR">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:32:42 UTC</createdTime>
 <ownerDesignName>mitTubo3</ownerDesignName>
@@ -17,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_LREP" id="B0F772D0-594D-846F-41C1-CA9A8A1561FF">
+<Attribute name="id_LDR" id="B0F772D0-594D-846F-41C1-CA9A8A1561FF">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:32:42 UTC</createdTime>
 <ownerDesignName>mitTubo3</ownerDesignName>
@@ -88,10 +88,9 @@
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:32:42 UTC</createdTime>
 <ownerDesignName>mitTubo3</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <importedID>2A2003A2-D6FC-C826-304D-2E2ED3A9D165</importedID>
 <engineerTo>
-<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="false"/>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
 <item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
 </engineerTo>
 <pk>true</pk>

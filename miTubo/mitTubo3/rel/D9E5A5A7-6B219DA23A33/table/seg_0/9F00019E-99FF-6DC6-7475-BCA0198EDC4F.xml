@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="USUARIO_id" id="C0DA706C-6267-9100-ABD1-F5FF90EB462F">
+<Column name="USUARIO_id_user" id="C0DA706C-6267-9100-ABD1-F5FF90EB462F">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>AA4A8042-37AD-138B-5D25-D61DC6D9DB29</generatorID>
@@ -56,7 +56,7 @@
 <colAssociation fkAssociation="C35D6494-0254-E2E9-ADAE-6D15475307C5" referredColumn="73032142-8EF8-D138-D67D-52718048EE5A"/>
 </associations>
 </Column>
-<Column name="COMENTARIO_USUARIO_id" id="1183AD99-7693-381F-D534-15BA484CFFC9">
+<Column name="COMENTARIO_USUARIO_id_user" id="1183AD99-7693-381F-D534-15BA484CFFC9">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>15A6AE0F-CEE4-BDF8-701C-59DADE26C4E0</generatorID>
@@ -71,7 +71,7 @@
 <colAssociation fkAssociation="F6FBF95C-8564-1EC6-A2C6-93ACA6C0F420" referredColumn="C0DA706C-6267-9100-ABD1-F5FF90EB462F"/>
 </associations>
 </Column>
-<Column name="VIDEO_id" id="64D5846B-AD34-43E9-4E14-7BF08AA99945">
+<Column name="VIDEO_id_video" id="64D5846B-AD34-43E9-4E14-7BF08AA99945">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>A9EF1183-0920-523C-D896-07AE9C54D491</generatorID>
@@ -98,7 +98,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMENTARIO_VIDEO_id" id="F906337E-63AA-BEE8-5FFF-896C9A5A05E5">
+<Column name="COMENTARIO_VIDEO_id_video" id="F906337E-63AA-BEE8-5FFF-896C9A5A05E5">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>089429D0-7DE9-9139-81A5-88A03C0298F7</generatorID>
@@ -125,7 +125,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COMENTARIO_id_comentario" id="1FA690F3-D1DB-9FF4-B78F-D81567522FF6">
+<Column name="COMENTARIO_id_coment" id="1FA690F3-D1DB-9FF4-B78F-D81567522FF6">
 <createdBy>PC</createdBy>
 <createdTime>2018-04-07 17:33:40 UTC</createdTime>
 <generatorID>9853B605-1603-FB03-505B-9331F8F60195</generatorID>
@@ -150,9 +150,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="965C245A-BEB8-DD61-6D2E-708509DF0871" referredColumn="CDC8AC81-F4FD-00FE-74D8-37E7229C3B18"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -203,7 +200,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="64D5846B-AD34-43E9-4E14-7BF08AA99945"/>
-<colUsage columnID="66147E3A-688D-03FE-B09E-0C108AE77C3B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
