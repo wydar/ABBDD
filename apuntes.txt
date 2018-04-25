@@ -103,3 +103,15 @@ tambien podemos crear un indice sobre una funcion
 
 database link: sirve para indicar que nuestra BBDD se conecte a otra BBDD
 para luego acceder a los datos de una tabla de la otra BBDD seria select * from nombre_tabla@nombre_database_link
+
+Cuando se  crea un procedimiento es en el proceso de compilacion cuando se comprueba si las tablas que se usan
+existen o no.
+
+Si le damos permiso a un usario (U1) para ejecutar un procedimiento y ese procedimiento inserta un valor en la tabla de
+otro usuario (U3), U1 no necesita tener permiso para insertar datos en la tabla de U3 para poder ejecutar el procedimiento.
+Esto es igual si en vez de dar permiso a un usuario se lo das a un rol y ese rol a otro usuario.
+
+Cuando tenemos un EXECUTE INMEDIATE lo que ejecute ese procedimiento oracle no sabe lo que es hasta que se vaya a ejecutar ese procedimiento,
+en ese procedimiento podemos ejecutar sentencias DML o DDL, si la sentencia es DML no hay problema en que esa sentencia la pueda ejecutar un rol pero
+si la sentencia es DDL para poder ejercutarlo el permiso para ejecutar el EXECUTE INMEDIATE se le tiene que dar directamente al usuario no a través de
+un rol.
