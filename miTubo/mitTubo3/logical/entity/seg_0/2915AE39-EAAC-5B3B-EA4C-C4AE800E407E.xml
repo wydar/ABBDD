@@ -184,6 +184,23 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Borrado" id="644CE636-33DE-BD60-6039-A1E00005828D">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-25 07:48:40 UTC</createdTime>
+<comment>El atributo Borrado lleva el valor por defecto no &apos;N&apos;</comment>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="20738573-3ACC-EEA3-537B-34A008769072" name="USUARIO PK">

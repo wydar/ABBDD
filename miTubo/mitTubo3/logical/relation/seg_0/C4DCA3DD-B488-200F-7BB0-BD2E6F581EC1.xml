@@ -13,7 +13,7 @@
 <nameOnSource>puede tener uno o muchos</nameOnSource>
 <nameOnTarget>es comentario de un</nameOnTarget>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>FFE379BC-193D-6C90-843B-039ECBF0A44F</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

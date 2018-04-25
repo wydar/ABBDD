@@ -62,6 +62,21 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_video" id="F8D70BDB-45FA-C841-E8FC-91E5842665B0">
+<createdBy>PC</createdBy>
+<createdTime>2018-04-25 07:44:12 UTC</createdTime>
+<generatorID>889C1FB7-79D4-C19B-BD09-8D6C077F302B</generatorID>
+<ownerDesignName>mitTubo3</ownerDesignName>
+<engineerTo>
+<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
+<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
+</engineerTo>
+<referedAttribute>F85060AD-01EE-2AAD-A8AA-DFFF13223F78</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C890AE90-EAEB-0ACD-7206-9CD26C410B68" name="ORDEN_VIDEO PK">

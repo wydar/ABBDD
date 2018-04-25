@@ -96,19 +96,6 @@
 </listOfValues>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="34B2319B-A549-9EE3-F204-6EEFE3D90CFF">
-<createdBy>PC</createdBy>
-<createdTime>2018-04-13 15:45:19 UTC</createdTime>
-<ownerDesignName>mitTubo3</ownerDesignName>
-<engineerTo>
-<item key="D9E5A5A7-964B-3F39-639E-6B219DA23A33" value="true"/>
-<item key="950D9C1B-B70F-AE38-7E44-2FDD62791CDD" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="5AF81B35-077F-C128-7ED4-9C36ACF3C023" name="OPCIONES PK">
